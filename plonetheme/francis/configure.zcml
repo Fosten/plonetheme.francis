@@ -1,0 +1,51 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="plonetheme.francis">
+
+    <five:registerPackage package="." initialize=".initialize" />
+
+    <include package="collective.responsivetheme" />
+
+    <!-- Profiles -->
+    <genericsetup:registerProfile
+        name="default"
+        title="francis theme"
+        directory="profiles/default"
+        description="Installs the 'plonetheme.francis' Plone theme."
+        provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+    <!-- Register the browser layer -->
+    <interface
+        interface=".interfaces.IThemeSpecific"
+        type="zope.publisher.interfaces.browser.IBrowserSkinType"
+        name="francis theme" />
+
+    <!-- Zope 3 browser resources -->
+    <browser:resourceDirectory
+        name="plonetheme.francis.images"
+        directory="images"
+        layer=".interfaces.IThemeSpecific" />
+
+    <browser:resourceDirectory
+        name="plonetheme.francis.javascript"
+        directory="javascript"
+        layer=".interfaces.IThemeSpecific" />
+
+    <browser:resourceDirectory
+        name="plonetheme.francis.stylesheets"
+        directory="stylesheets"
+        layer=".interfaces.IThemeSpecific" />
+
+    <!-- Use jbot for template overrides -->
+    <include package="z3c.jbot" file="meta.zcml" />
+
+    <browser:jbot
+        directory="templates"
+        layer=".interfaces.IThemeSpecific" />
+
+</configure>
+

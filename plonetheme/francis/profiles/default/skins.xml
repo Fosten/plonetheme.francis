@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<object name="portal_skins" allow_any="True" cookie_persistence="False" default_skin="francis theme">
+    <skin-path name="francis theme" based-on="Responsive Theme" />
+</object>
+
