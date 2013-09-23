@@ -1,0 +1,78 @@
+body.section-homepage #portal-columns {padding-top:1em;}
+
+.section-homepage .InHeaderPortletManager2,
+.section-homepage .AbovePortletManager2 {
+width:31.08%;
+margin-left:-32.205%;
+}
+
+.section-homepage .BelowPortletManager3 .portletHeader,
+.section-homepage .AbovePortletManager2 .portletHeader,
+.section-homepage .InHeaderPortletManager2 .portletHeader {
+display:none;
+}
+
+.section-homepage .InHeaderPortletManager1,
+.section-homepage .AbovePortletManager1 {
+width:64.16%;
+}
+
+.section-homepage .AbovePortletManager1 .portletItem,
+.section-homepage .AbovePortletManager2 .portletItem,
+.section-homepage .BelowPortletManager3 .portletItem {
+padding:0;
+}
+
+.section-homepage .InHeaderPortletManager1 .portletBling,
+.section-homepage .InHeaderPortletManager1 .portletBling img,
+.section-homepage .InHeaderPortletManager2 img, 
+.section-homepage .InHeaderPortletManager2 p { 
+-moz-border-top-right-radius:5px; 
+-webkit-border-top-right-radius:5px;
+border-top-right-radius:5px;
+-moz-border-top-left-radius:5px;
+-webkit-border-top-left-radius:5px;
+border-top-left-radius:5px;
+margin-bottom:0px;
+}
+
+.section-homepage .AbovePortletManager1 .portletBling {
+box-shadow: 0px 1px 18px 1px #ccc;
+-moz-box-shadow: 0px 1px 18px 1px #ccc;
+-webkit-box-shadow: 0px 1px 18px 1px #ccc;
+}
+
+.section-homepage .InHeaderPortletManager2 img,
+.section-homepage .AbovePortletManager2 img {height:250px;}
+
+.section-homepage #content {display:none;}
+
+body.section-homepage #portal-breadcrumbs {display:none;}
+
+.section-homepage .BelowPortletManager1,
+.section-homepage .BelowPortletManager2 {
+    -moz-border-top-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -o-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -moz-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -webkit-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -ms-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.19, rgb(234,234,234)),
+	    color-stop(0.6, rgb(244,244,244)),
+	    color-stop(0.8, rgb(249,249,249))
+    );
+    box-shadow: 0px 1px 2px 1px #ccc;
+    -moz-box-shadow: 0px 1px 2px 1px #ccc;
+    -webkit-box-shadow: 0px 1px 2px 1px #ccc;
+}
+
+body.section-homepage {background-image: url(++resource++plonetheme.francis.images/jesus.jpg);}
