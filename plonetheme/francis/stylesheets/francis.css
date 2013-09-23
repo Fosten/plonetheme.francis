@@ -1,6 +1,15 @@
-body { background-color:lightgrey;
-background-position:top center;
-background-repeat: no-repeat;
+#content a, #content a:link, #portal-footer a {
+    color:#990000 !important;
+}
+
+a, a:link {
+    transition: all 0.2s ease 0s;
+}
+
+body {
+    background-color:lightgrey;
+    background-position:top center;
+    background-repeat: no-repeat;
 }
 
 #visual-portal-wrapper {
@@ -22,21 +31,27 @@ background-repeat: no-repeat;
     box-shadow:         0px 4px 10px -5px #000;
     z-index:9999;
 }
-#portal-personaltools-wrapper {
-display:none;
-}
+
+#portal-personaltools-wrapper {display:none;}
 
 #portal-searchbox {
-margin-top:1.3em;
-margin-bottom: 0;
+    margin-top:1.3em;
+    margin-bottom: 0;
 }
 
 #portal-logo {margin:0;}
-#logo {top:0.5em; margin-left:-59%;
+
+#logo {
+    top:0.5em; 
+    margin-left:-59%;
 }
+
 #portaltab-athletics {margin-left:125px;}
+
 #portaltab-athletics a {padding-right:20px !important;}
+
 .nav-primary {top:-40px;}
+
 #portal-globalnav {
     background: transparent;
     text-align: center;
@@ -47,20 +62,34 @@ margin-bottom: 0;
     border-right: none;
     color: white;
     font-weight: bold;
-padding:0.5em 1.1em;
-min-width:4em;
+    padding:0.5em 1.1em;
+    min-width:4em;
 }
 
-#portal-globalnav a:hover {
+#portal-globalnav a:hover,
+#portal-globalnav .selected a:hover {
     background: white;
     color: #990000;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
 }
 
-li.navTreeItem a span {color:#990000;}
+#portal-globalnav .selected a {
+    background: transparent;
+    color: white;
+}
+
+/*li.navTreeItem a span {color:#990000;}*/
 
 #portal-columns {
     background: white;
     padding-top:15px;
+    border: 3px solid #e0e0e0;
+    box-shadow: 0px 1px 2px #ccc;
+    -moz-box-shadow: 0px 1px 2px #ccc;
+    -webkit-box-shadow: 0px 1px 2px #ccc;
+    width:99.4%;
 }
 
 #portal-footer-wrapper { background: #ddd;}
@@ -97,8 +126,14 @@ li.navTreeItem a span {color:#990000;}
 }
 
 #portal-footer {
-margin:1em 0 0 0;
+    margin:1em 0 0 0;
 }
+
+#portal-colophon a,
+#portal-siteactions a {color:white;}
+
+#portal-colophon a:hover,
+#portal-siteactions a:hover {background:white; color:#990000 !important;}
 
 #portal-column-one dl.portlet {
     -moz-border-top-left-radius: 4px;
@@ -157,3 +192,17 @@ body.section-faith-and-franciscanism {
 ul.slideshow { min-height:250px !important;}
 
 .portletBling dt.portletHeader, .portletBling dd.portletFooter {display:none !important;}
+
+dl.portlet dd.portletItem a:hover, 
+dl.portlet dd.portletFooter a:hover, 
+#portal-breadcrumbs a:hover, 
+dl.portlet dd.portletItem a:focus, 
+dl.portlet dd.portletFooter a:focus, 
+#portal-breadcrumbs a:focus {
+    color: white !important;
+    background-color: #990000;
+}
+
+dl.portlet dd.portletItem a,
+dl.portlet dd.portletFooter a,
+#portal-breadcrumbs a {color:#990000 !important;}
