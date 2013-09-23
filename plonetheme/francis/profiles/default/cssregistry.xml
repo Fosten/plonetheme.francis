@@ -7,6 +7,11 @@
         media="screen" rel="stylesheet" rendering="import"
         cacheable="True" compression="safe" cookable="True"
         enabled="1" expression=""/>
-    
-</object>
 
+    <stylesheet title=""
+        id="++resource++plonetheme.francis.stylesheets/homepage.css"
+        media="screen" rel="stylesheet" rendering="import"
+        cacheable="True" compression="safe" cookable="True"
+        enabled="1" expression=""/>
+
+</object>
