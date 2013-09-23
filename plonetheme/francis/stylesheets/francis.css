@@ -186,31 +186,31 @@ body.section-homepage {
 }
 
 body.section-about-us {
-    background-image: url(/uploadedImages/Content/Home/About_Us/AboutUs.jpg); 
+    background-image: url(++resource++plonetheme.francis.images/about-us.jpg);
 }
 
 body.section-admissions {
-    background-image: url(/uploadedImages/Content/Home/Admissions/AdmissionsBG.jpg); 
+    background-image: url(++resource++plonetheme.francis.images/admissions.jpg); 
 }
 
 body.section-academics {
-    background-image: url(/uploadedImages/Content/Home/Academics/Academics.jpg); 
+    background-image: url(++resource++plonetheme.francis.images/academics.jpg); 
 }
 
-body.section-campuslife {
-    background-image: url(/uploadedImages/Content/Home/Campus_Life/CampusLife.jpg); 
+body.section-campus-life {
+    background-image: url(++resource++plonetheme.francis.images/campus-life.jpg); 
 }
 
 body.section-athletics {
-    background-image: url(/uploadedImages/Content/Home/Athletics/RedFlash.jpg); 
+    background-image: url(++resource++plonetheme.francis.images/athletics.jpg); 
 }
 
 body.section-alumni-and-friends {
-    background-image: url(/uploadedImages/Content/Home/Alumni_and_Friends/Alumni.jpg); 
+    background-image: url(++resource++plonetheme.francis.images/alumni-friends.jpg); 
 }
 
 body.section-faith-and-franciscanism {
-    background-image: url(/uploadedImages/Content/Home/Faith_and_Franciscanism/Faith.jpg); 
+    background-image: url(++resource++plonetheme.francis.images/faith-franciscanism.jpg); 
 }
 
 
