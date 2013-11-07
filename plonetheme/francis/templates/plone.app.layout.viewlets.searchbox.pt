@@ -1,0 +1,63 @@
+<div class="social">
+<a href="http://francis.edu/rss" title="Saint Francis University RSS Feeds">
+<img src="http://francis.edu/images/rss-icon.png" class="icon" alt="RSS" /></a>
+<a href="http://www.facebook.com/SaintFrancisUniversity" title="Official Facebook of Saint Francis University">
+<img src="http://francis.edu/images/fb-icon.gif" class="icon" alt="Facebook" /></a>
+<a href="http://twitter.com/SaintFrancisPA/" title="Offficial Twitter of Saint Francis University">
+<img src="http://francis.edu/images/twitter-icon.gif" class="icon" alt="Twitter" /></a>
+<a title="Official Youtube of Saint Francis University" href="http://youtube.com/saintfrancisu">
+<img src="http://francis.edu/uploadedImages/Content/Home/About_Us/News_and_Stories/Social_SFU/youtube-16x16-icon.png" class="icon" alt="Youtube" /></a>
+<a title="Saint Francis University Pinterest" href="http://pinterest.com/saintfrancisu/">
+<img src="http://francis.edu/images/pinterest-icon.png" class="icon" alt="Pinterest" /></a>
+<a href="http://francis.edu/social-media/" title="Social Media">
+<img title="SFU" alt="SFU" src="http://francis.edu/uploadedImages/Content/Site-Wide_Footer/sfu.jpg" /></a>
+<a href="/sitemap" title="Site map">Site Map</a>
+</div>
+<div id="portal-searchbox"
+     i18n:domain="plone"
+     tal:define="navigation_root_url view/navigation_root_url;
+                 search_input_id view/search_input_id;">
+
+    <form id="searchGadget_form"
+          action="@@search"
+          tal:attributes="action string:${navigation_root_url}/@@search;
+                          id string:${search_input_id}_form;">
+
+        <div class="LSBox">
+        <label class="hiddenStructure"
+               tal:attributes="for search_input_id"
+               i18n:translate="text_search">Search Site</label>
+
+        <input name="SearchableText"
+               type="text"
+               size="18"
+               value=""
+               title="Search Site"
+               placeholder="Search Site"
+               accesskey="4"
+               i18n:attributes="title title_search_site;
+                                placeholder title_search_site"
+               tal:attributes="value request/form/SearchableText|nothing;
+                               id search_input_id"
+               class="searchField" />
+
+        <input class="searchButton"
+               type="submit"
+               value="Go"
+               i18n:attributes="value label_search;" />
+
+        <div class="LSResult" id="LSResult"><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search"
+         class="hiddenStructure">
+        <a href="#"
+           tal:attributes="href string:${navigation_root_url}/@@search"
+           i18n:translate="label_advanced_search"
+           accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
