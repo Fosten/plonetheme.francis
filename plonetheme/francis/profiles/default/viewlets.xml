@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<object>
+    <hidden manager="plone.portalfooter" skinname="francis theme">
+        <viewlet name="plone.site_actions"/>
+        <viewlet name="plone.colophon"/>
+    </hidden>
+</object>
