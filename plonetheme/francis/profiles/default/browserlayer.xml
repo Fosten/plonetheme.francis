@@ -1,0 +1,8 @@
+<layers>
+    <layer name="plonetheme.francis" 
+        interface="plonetheme.francis.interfaces.IThemeSpecific" />
+</layers>
+
+
+ 
+
