@@ -28,6 +28,7 @@ setup(name='plonetheme.francis',
           'z3c.jbot>=0.6.0',
           'plonetheme.sunburst',
           'collective.responsivetheme',
+          'Products.EasyAsPiIE',
           'Plone>=4.0',
       ],
       entry_points="""
