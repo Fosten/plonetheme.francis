@@ -5,9 +5,8 @@ version = '1.0'
 
 setup(name='plonetheme.francis',
       version=version,
-      description="francis policy",
-      long_description=open("README.txt").read() + "\n" +
-                       open("CHANGES.txt").read(),
+      description="francis theme",
+      long_description=open("README.txt").read() + "\n",
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
