@@ -69,11 +69,13 @@ display:inline-block;
 *display:inline;
 width:135px}
 
-.social {text-align:right;}
-.social a {font-size:80%;}
+.social {margin-top: 5px; text-align:right;}
+.social img {height:20px;}
+.social a {font-size:80%; font-weight:bold; padding-top:15px;}
 .social a, #portal-footer a {color:white;}
 #portal-footer a {border-bottom:1px solid white;}
-.social a:hover, #portal-footer a:hover {color:#990000;background:white;}
+.social a:hover {background:#cccccc;}
+#portal-footer a:hover {color:#990000;background:white;}
 /*#portaltab-athletics {margin-left:125px;}*/
 
 /*#portaltab-athletics a {padding-right:20px !important;}*/
@@ -89,8 +91,9 @@ width:135px}
     background: transparent;
     border-right: none;
     color: white;
-    padding:0.5em 1.2em;
+    padding:0.5em 1.1em;
     min-width:4em;
+    font-weight:bold;
 }
 
 #portal-globalnav a:hover,
