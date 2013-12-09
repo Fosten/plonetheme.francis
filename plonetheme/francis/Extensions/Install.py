@@ -1,6 +1,6 @@
 from Products.CMFCore.utils import getToolByName
 
-THEMENAME='Your Theme Name Goes Here'
+THEMENAME='francis theme'
 
 def uninstall(portal):
     """Uninstall by cleaning up portal_skins"""
