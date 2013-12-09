@@ -6,7 +6,7 @@ version = '1.0'
 setup(name='plonetheme.francis',
       version=version,
       description="francis theme",
-      long_description=open("README.txt").read() + "\n",
+      long_description=open("README.txt").read(),
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
@@ -14,9 +14,9 @@ setup(name='plonetheme.francis',
         "Programming Language :: Python",
         ],
       keywords='',
-      author='',
-      author_email='',
-      url='',
+      author='Brian Davis, Saint Francis University',
+      author_email='marketing@francis.edu',
+      url='http://francis.edu',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['plonetheme'],
