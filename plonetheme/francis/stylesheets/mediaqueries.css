@@ -15,11 +15,32 @@
 }
 
 @media screen and (max-width:640px) {
-ul#portal-globalnav {background:transparent !important}
+
+ul#portal-globalnav {background:transparent !important;}
+
 div#logo {text-align:center;}
-#portal-searchbox {text-align:center; width:100%; margin:95px 0 0 !important;}
-.LSBox #searchGadget {height:35px;width:85%;}
-.LSBox .searchButton {height:38px;width:41px;}
-.nav-primary {width:100%; margin-top:25px !important;}
+
+#portal-searchbox {
+    text-align:center;
+    width:100%;
+    margin:95px 0 0 !important;
+}
+
+.LSBox #searchGadget {
+    height:35px;
+    width:85%;
+}
+
+.LSBox .searchButton {
+    height:38px;
+    width:41px;
+}
+
+.nav-primary {
+    width:100%;
+    margin-top:25px !important;
+}
+
 #portal-globalnav a:hover {background-color:white !important;}
+
 }
