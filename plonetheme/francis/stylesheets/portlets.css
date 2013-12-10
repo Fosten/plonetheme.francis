@@ -11,15 +11,15 @@
     line-height:1.5em;
 }
 
-#portlets-footer {
-    background: #71031C; /* Old browsers */
-    background: -moz-linear-gradient(top, #930324 0%, #71031c 50%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#930324), color-stop(50%,#71031c)); /*Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #930324 0%,#71031c 50%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #930324 0%,#71031c 50%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #930324 0%,#71031c 50%); /* IE10+ */
-    background: linear-gradient(to bottom, #930324 0%,#71031c 50%); /* W3C */
-}
+/*#portlets-footer {*/
+/*    background: #71031C; /* Old browsers */
+/*    background: -moz-linear-gradient(top, #930324 0%, #71031c 50%); /* FF3.6+ */
+/*    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#930324), color-stop(50%,#71031c)); /*Chrome,Safari4+ */
+/*    background: -webkit-linear-gradient(top, #930324 0%,#71031c 50%); /* Chrome10+,Safari5.1+ */
+/*    background: -o-linear-gradient(top, #930324 0%,#71031c 50%); /* Opera 11.10+ */
+/*    background: -ms-linear-gradient(top, #930324 0%,#71031c 50%); /* IE10+ */
+/*    background: linear-gradient(to bottom, #930324 0%,#71031c 50%); /* W3C */
+/*}*/
 
 #portlets-footer a, #portlets-footer a:link {
     color:white;
@@ -148,4 +148,16 @@ dd.portletItem a:hover,
 dd.portletFooter a:hover, 
 dd.portletFooter a:hover {
     color: #336699;
+}
+
+#portlets-footer dl.portlet dd.portletItem {
+    font-size:12px;
+    padding:0;
+}
+
+#portlets-footer dt.portletHeader {
+    font-style:italic;
+    font-family:'Georgia, Times, serif';
+    font-size:1.1em;
+    padding:0.42em 0;
 }
