@@ -1,5 +1,14 @@
 <div metal:define-macro="portal_footer"
      i18n:domain="plone"
      id="portal-footer">
+<p class="subdomains">
+<a href="http://catalog.francis.edu" title="Catalog">catalog</a>&nbsp;&#149;&nbsp;
+<a title="SFU Library" href="http://library.francis.edu">library</a>&nbsp;&#149;&nbsp;
+<a href="http://courses.francis.edu" title="Blackboard">blackboard</a>&nbsp;&#149;&nbsp;
+<a title="My Francis" href="http://my.francis.edu">my.francis</a>&nbsp;&#149;&nbsp;
+<a title="Webmail" href="http://webmail.francis.edu">webmail</a>&nbsp;&#149;&nbsp;
+<a title="Life Francis" href="http://life.francis.edu">life</a>&nbsp;&#149;&nbsp;
+<a title="Red Radio" href="http://radio.francis.edu">radio</a>
+</p>
 <p class="accessibility-statement">Saint Francis University is committed to making its websites accessible to all users.  Please send comments or suggestions on accessibility improvements to <a href="http://francis.edu/disability-services" title="disability servics">disability services</a>
 </div>
