@@ -1,0 +1,30 @@
+<div id="slogan">reach higher. go far.</div>
+<div id="footer-portlet-contain">
+<div id="footer-logo">
+<img src="++resource++plonetheme.francis.images/logo.png" alt="Saint Francis University" />
+<p class="footer-addy">
+117 Evergreen Drive<br />
+P.O. Box 600<br />
+Loretto, PA 15940</p>
+<p class="phone-icon">
+<img src="++resource++plonetheme.francis.images/phone-icon.png" alt="Phone" />&nbsp;814.472.3000</p></div>
+<div id="portlets-footer"
+    class="row"
+     i18n:domain="Products.ContentWellPortlets">
+     <tal:block tal:condition="view/showPortlets">
+         <tal:portletmanagers tal:repeat="manager view/portletManagersToShow">
+             <div tal:attributes="class python:manager[1]"
+                  tal:define="mgr python:manager[0]"
+                  tal:content="structure provider:${mgr}" /> 
+
+         </tal:portletmanagers>
+     </tal:block>
+</div></div>
+<div class="manageFooterPortletsLink"
+   i18n:domain="Products.ContentWellPortlets"
+   tal:condition="view/canManagePortlets">
+    <a href="" 
+       class="managePortletsFallback"
+       tal:attributes="href view/manageUrl"
+       i18n:translate="manage-footer-portlet-link">Add, edit or remove a portlet in the footer</a>
+</div>
