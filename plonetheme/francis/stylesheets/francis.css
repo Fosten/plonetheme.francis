@@ -21,7 +21,7 @@ a, a:link {
 }
 
 h2 {
-    background-image: url(++resource++plonetheme.francis.images/diagonal.gif);
+    background-image: url('++resource++plonetheme.francis.images/diagonal.gif');
     background-position: 0 14px;
     background-repeat: repeat-x;
     clear:both;
@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-    background-image: url(++resource++plonetheme.francis.images/diagonal.gif);
+    background-image: url('++resource++plonetheme.francis.images/diagonal.gif');
     background-position: 0 14px;
     background-repeat: repeat-x;
     clear:both;
@@ -157,31 +157,31 @@ z-index:2;
 #portal-siteactions a:hover {background:white; color:#990000 !important;}
 
 body.section-about-us {
-    background-image: url(++resource++plonetheme.francis.images/about-us.jpg);
+    background-image: url('++resource++plonetheme.francis.images/about-us.jpg');
 }
 
 body.section-admissions {
-    background-image: url(++resource++plonetheme.francis.images/admissions.jpg); 
+    background-image: url('++resource++plonetheme.francis.images/admissions.jpg'); 
 }
 
 body.section-academics {
-    background-image: url(++resource++plonetheme.francis.images/academics.jpg); 
+    background-image: url('++resource++plonetheme.francis.images/academics.jpg'); 
 }
 
 body.section-campus-life {
-    background-image: url(++resource++plonetheme.francis.images/campus-life.jpg); 
+    background-image: url('++resource++plonetheme.francis.images/campus-life.jpg'); 
 }
 
 body.section-athletics {
-    background: url(++resource++plonetheme.francis.images/athletics.jpg) 50%; 
+    background: url('++resource++plonetheme.francis.images/athletics.jpg'); 
 }
 
 body.section-alumni-and-friends {
-    background-image: url(++resource++plonetheme.francis.images/alumni-friends.jpg); 
+    background-image: url('++resource++plonetheme.francis.images/alumni-friends.jpg'); 
 }
 
 body.section-faith-and-franciscanism {
-    background-image: url(++resource++plonetheme.francis.images/faith-franciscanism.jpg); 
+    background-image: url('++resource++plonetheme.francis.images/faith-franciscanism.jpg'); 
 }
 
 

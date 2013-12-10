@@ -1,13 +1,15 @@
 <div id="slogan">reach higher. go far.</div>
 <div id="footer-portlet-contain">
 <div id="footer-logo">
-<img src="++resource++plonetheme.francis.images/logo.png" alt="Saint Francis University" />
+<img alt="Saint Francis University"
+     tal:attributes="src string:${context/@@plone_portal_state/navigation_root_url}/++resource++plonetheme.francis.images/logo.png" />
 <p class="footer-addy">
 117 Evergreen Drive<br />
 P.O. Box 600<br />
 Loretto, PA 15940</p>
 <p class="phone-icon">
-<img src="++resource++plonetheme.francis.images/phone-icon.png" alt="Phone" />&nbsp;814.472.3000</p></div>
+<img alt="Phone"
+     tal:attributes="src string:${context/@@plone_portal_state/navigation_root_url}/++resource++plonetheme.francis.images/phone-icon.png" />&nbsp;814.472.3000</p></div>
 <div id="portlets-footer"
     class="row"
      i18n:domain="Products.ContentWellPortlets">

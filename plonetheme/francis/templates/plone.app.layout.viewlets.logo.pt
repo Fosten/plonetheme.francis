@@ -7,5 +7,6 @@
    tal:attributes="href view/navigation_root_url;"
    i18n:domain="plone"
    i18n:attributes="title">
-    <img src="++resource++plonetheme.francis.images/logo.png" alt="" /></a>
+    <img alt="Saint Francis University"
+         tal:attributes="src string:${context/@@plone_portal_state/navigation_root_url}/++resource++plonetheme.francis.images/logo.png" /></a>
 </div>

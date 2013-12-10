@@ -1,14 +1,14 @@
 <div class="social">
 <a href="http://www.facebook.com/SaintFrancisUniversity" title="Official Facebook of Saint Francis University">
-<img src="++resource++plonetheme.francis.images/facebook.png" class="icon" alt="Facebook" /></a>
+<img tal:attributes="src string:${context/@@plone_portal_state/navigation_root_url}/++resource++plonetheme.francis.images/facebook.png" class="icon" alt="Facebook" /></a>
 <a href="http://twitter.com/SaintFrancisPA/" title="Offficial Twitter of Saint Francis University">
-<img src="++resource++plonetheme.francis.images/twitter.png" class="icon" alt="Twitter" /></a>
+<img tal:attributes="src string:${context/@@plone_portal_state/navigation_root_url}/++resource++plonetheme.francis.images/twitter.png" class="icon" alt="Twitter" /></a>
 <a title="Official Youtube of Saint Francis University" href="http://youtube.com/saintfrancisu">
-<img src="++resource++plonetheme.francis.images/youtube.png" class="icon" alt="Youtube" /></a>
+<img tal:attributes="src string:${context/@@plone_portal_state/navigation_root_url}/++resource++plonetheme.francis.images/youtube.png" class="icon" alt="Youtube" /></a>
 <a title="Saint Francis University Pinterest" href="http://pinterest.com/saintfrancisu/">
-<img src="++resource++plonetheme.francis.images/pinterest.png" class="icon" alt="Pinterest" /></a>
+<img tal:attributes="src string:${context/@@plone_portal_state/navigation_root_url}/++resource++plonetheme.francis.images/pinterest.png" class="icon" alt="Pinterest" /></a>
 <a href="http://francis.edu/rss" title="Saint Francis University RSS Feeds">
-<img src="++resource++plonetheme.francis.images/rss.png" class="icon" alt="RSS" /></a>
+<img tal:attributes="src string:${context/@@plone_portal_state/navigation_root_url}/++resource++plonetheme.francis.images/rss.png" class="icon" alt="RSS" /></a>
 
 <a href="/sitemap" title="Site map">Site Map</a>
 </div>
