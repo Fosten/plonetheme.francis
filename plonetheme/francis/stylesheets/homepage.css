@@ -1,5 +1,8 @@
-body.section-homepage #portal-columns {padding-top:1em;}
-
+.section-homepage #content {margin:0;}
+.section-homepage .documentFirstHeading {display:none;}
+.section-homepage #portlets-below {margin-top:3px;}
+.section-homepage #portal-columns {padding-top:0em;width:962px;}
+.section-homepage #portal-column-content {margin-left:-100%;}
 .section-homepage .InHeaderPortletManager2,
 .section-homepage .AbovePortletManager2 {
 width:31.08%;
@@ -74,3 +77,6 @@ body.section-homepage #portal-breadcrumbs {display:none;}
 }
 
 body.section-homepage {background-image: url(++resource++plonetheme.francis.images/jesus.jpg);}
+
+.section-homepage #portlets-below dt.portletHeader {background:transparent;}
+.section-homepage #portlets-below dt.portletHeader a {color:#990000; font-size:18px; font-family:'Georgia, Times, serif'; font-weight:normal;}
