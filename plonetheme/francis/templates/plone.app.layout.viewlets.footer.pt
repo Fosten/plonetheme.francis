@@ -1,6 +1,5 @@
 <div metal:define-macro="portal_footer"
      i18n:domain="plone"
      id="portal-footer">
-<p align="center">Saint Francis University is committed to making its websites accessible to all users.</p>
-<p align="center">Please send comments or suggestions on accessibility improvements to <a href="http://francis.edu/disability-services" title="disability servics">disability services</a></p>
+<p class="accessibility-statement">Saint Francis University is committed to making its websites accessible to all users.  Please send comments or suggestions on accessibility improvements to <a href="http://francis.edu/disability-services" title="disability servics">disability services</a>
 </div>
