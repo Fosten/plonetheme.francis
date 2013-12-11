@@ -2,7 +2,11 @@
 
 <object name="portal_javascripts">
 
-    <javascript id="++resource++plonetheme.francis.javascript/yourfile.js"
+    <javascript id="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
+        cacheable="True" compression="none" cookable="True" enabled="True"
+        expression="" inline="False"/>
+
+    <javascript id="++resource++plonetheme.francis.javascript/organictabs.jquery.js"
         cacheable="True" compression="none" cookable="True" enabled="True"
         expression="" inline="False"/>
 
