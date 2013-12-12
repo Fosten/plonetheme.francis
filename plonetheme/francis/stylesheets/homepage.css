@@ -86,8 +86,6 @@ body.section-homepage #portal-breadcrumbs {display:none;}
     -webkit-box-shadow: 0px 1px 2px 1px #ccc;
 }
 
-body.section-homepage {background-image: url('++resource++plonetheme.francis.images/jesus.jpg');}
-
 .section-homepage #portlets-below dt.portletHeader {background:transparent;}
 
 .section-homepage #portlets-below dt.portletHeader a {

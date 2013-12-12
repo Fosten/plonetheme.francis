@@ -179,34 +179,6 @@ body {
     color:#990000 !important;
 }
 
-body.section-about-us {
-    background-image: url('++resource++plonetheme.francis.images/about-us.jpg');
-}
-
-body.section-admissions {
-    background-image: url('++resource++plonetheme.francis.images/admissions.jpg'); 
-}
-
-body.section-academics {
-    background-image: url('++resource++plonetheme.francis.images/academics.jpg'); 
-}
-
-body.section-campus-life {
-    background-image: url('++resource++plonetheme.francis.images/campus-life.jpg'); 
-}
-
-body.section-athletics {
-    background: url('++resource++plonetheme.francis.images/athletics.jpg'); 
-}
-
-body.section-alumni-and-friends {
-    background-image: url('++resource++plonetheme.francis.images/alumni-friends.jpg'); 
-}
-
-body.section-faith-and-franciscanism {
-    background-image: url('++resource++plonetheme.francis.images/faith-franciscanism.jpg'); 
-}
-
 ul.slideshow { min-height:250px !important;}
 
 #portal-breadcrumbs a:hover, 
