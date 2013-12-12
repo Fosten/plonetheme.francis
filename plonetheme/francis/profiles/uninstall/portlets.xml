@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<portlets>
+<assignment manager="plone.rightcolumn" category="context" key="/"
+     type="portlets.News" name="news" remove="False" /> 
+<assignment manager="plone.rightcolumn" category="context" key="/"
+     type="portlets.Events" name="events" remove="False" />
+</portlets>
