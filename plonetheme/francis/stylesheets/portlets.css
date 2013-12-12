@@ -1,5 +1,5 @@
-dl.portlet li a:hover {background-color:#990000 !important; color:white !important;}
-
+dl.portlet a:hover {background-color:#990000 !important; color:white !important; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+dl.portlet a {padding:2px;}
 .managePortletsBelowTitleLink a {
     font-size:100% !important;
     color:#444 !important;
@@ -17,7 +17,15 @@ dl.portlet li a:hover {background-color:#990000 !important; color:white !importa
 #portlets-footer a:link {
     color:white;
     text-decoration: none;
+    padding:2px;
 }
+
+#portlets-footer a:hover {
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
 #portlets-footer dt.portletHeader {
     background:transparent;
 }
