@@ -1,3 +1,5 @@
+dl.portlet li a:hover {background-color:#990000 !important; color:white !important;}
+
 .managePortletsBelowTitleLink a {
     font-size:100% !important;
     color:#444 !important;
@@ -63,13 +65,8 @@
 /********* portlet links *********/
 
 .manageFooterPortletsLink {
-    background: #296ba0 !important; /* Old browsers */
-    padding-top:1.5em;
-    padding-bottom:0.5em
-}
-
-.manageFooterPortletsLink {
-    background: white !important; /* Old browsers */
+    background: transparent !important;
+    text-shadow:none;
 }
 
 .managePortletsAboveLink, .managePortletsBelowLink, .manageFooterPortletsLink {

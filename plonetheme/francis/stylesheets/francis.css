@@ -12,8 +12,7 @@
     padding:2px;
 }
 
-#content a:hover,
-dl.portlet a:hover {
+#content a:hover {
     color:white !important;
     background:#990000;
     padding:2px;
@@ -76,23 +75,19 @@ body {
     text-align:right;
 }
 
-.social img {height:20px;}
+.social img {height:20px; padding:5px 2px 2px;}
 
 .social a {
     font-size:80%;
     font-weight:bold;
-    padding-top:15px;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.498);
+    padding-top:10px;
 }
 
 .social a, #portal-footer a {color:white;}
-
+.social a:hover {background:#444444;}
 #portal-footer a {
     border-bottom:1px solid white;
-    padding:2px;
-}
-
-.social a:hover {
-    background:#cccccc;
     padding:2px;
 }
 
@@ -169,8 +164,7 @@ body {
 
 #portal-footer {
     color: white;
-    background:transparent;    
-    font-size:11px;
+    background:transparent;
     line-height:normal;
     text-align:center;
     padding:0;
