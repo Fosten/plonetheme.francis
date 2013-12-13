@@ -37,7 +37,11 @@
         media="screen" rel="stylesheet" rendering="import"
         cacheable="True" compression="safe" cookable="True"
         enabled="1" expression=""/>
-
+    <stylesheet title=""
+        id="++resource++plonetheme.francis.stylesheets/library.css"
+        media="screen" rel="stylesheet" rendering="import"
+        cacheable="True" compression="safe" cookable="True"
+        enabled="1" expression=""/>
     <stylesheet title=""
         id="++resource++plonetheme.francis.stylesheets/mediaqueries.css"
         media="screen" rel="stylesheet" rendering="import"
