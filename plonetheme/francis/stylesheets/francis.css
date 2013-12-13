@@ -47,11 +47,12 @@ body {
     margin: 0 auto;
     width:980px !important;
 }
+#portal-header {margin-top:5px;}
 
 #portal-personaltools-wrapper {display:none;}
 
 #portal-searchbox {
-    margin-top:1em;
+    margin-top:.5em;
     margin-bottom: 0;
 }
 
@@ -62,10 +63,11 @@ body {
     display:inline-block;
     *display:inline;
     width:135px;
+    margin-bottom:1em;
+    margin-top:-1.5em
 }
 
 .social {
-    margin-top: 5px;
     text-align:right;
 }
 
@@ -90,13 +92,12 @@ body {
     margin-left:15%;
     display:inline-block;
     *display:inline;
-    margin-top:1em;
+    margin-top:.5em;
 }
 
 #portal-globalnav {
     background: transparent;
     text-align: right;
-    margin-bottom:2.5em;
 }
 
 #portal-globalnav li a {
@@ -144,7 +145,7 @@ body {
     background:transparent;
     line-height:normal;
     text-align:center;
-    padding:0 0 1em;
+    padding:0;
     margin:0;
 }
 
@@ -227,7 +228,7 @@ ul.slideshow { min-height:250px !important;}
     float:left;
     font-size:12px;
     width:14%;
-    margin:-1em 2em 0 0;
+    margin:-3.5em 1em 0 1em;
 }
 
 .mini-wrapper {
@@ -242,3 +243,5 @@ p.subdomains a {
     padding: 0 1em !important;
     border-bottom:0 !important;
 }
+
+.accessibility-statement {margin:1em 0;}
