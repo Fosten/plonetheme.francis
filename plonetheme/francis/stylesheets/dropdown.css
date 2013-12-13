@@ -1,5 +1,4 @@
 #portal-globalnav ul.submenu a {color:#444 !important;text-shadow:none; font-size:11px; font-weight:normal; text-align:left;}
-#portal-globalnav ul.submenu a:hover {color:white; background:#dcdcdc;}
 #portal-globalnav ul.submenu li {border:0 1px 1px solid #e5e5e5;}
 ul.submenu {width:140px; border-radius:2px;}
 a.hasDropDown {background-position:140px 15% !important;}

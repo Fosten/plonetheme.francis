@@ -1,4 +1,3 @@
-dl.portlet a:hover {background-color:#990000 !important; color:white !important; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
 dl.portlet a {padding:2px;}
 .managePortletsBelowTitleLink a {
     font-size:100% !important;
@@ -18,12 +17,6 @@ dl.portlet a {padding:2px;}
     color:white;
     text-decoration: none;
     padding:2px;
-}
-
-#portlets-footer a:hover {
-    border-radius:4px;
-    -moz-border-radius:4px;
-    -webkit-border-radius:4px;
 }
 
 #portlets-footer dt.portletHeader {
@@ -89,19 +82,6 @@ dl.portlet a {padding:2px;}
     color: #444;
 }
 
-div.managePortletsLink:hover a {
-    color: white;
-}
-
-div.managePortletsLink:hover,
-a.managePortletsFallback:hover,
-a.managePortletsLink:hover,
-.managePortletsBelowTitleLink a:hover {
-    background: #444444 !important;
-    color: white !important;
-    border:1px solid white;
-}
-
 div.managePortletsLink,
 a.managePortletsLink,
 a.managePortletsFallback {
@@ -141,12 +121,6 @@ dd.portletItem a,
 dd.portletFooter a,
 dd.portletFooter a:visited {
     color: #990000 !important;
-}
-
-dd.portletItem a:hover, 
-dd.portletFooter a:hover, 
-dd.portletFooter a:hover {
-    color: #336699;
 }
 
 #portlets-footer dl.portlet dd.portletItem {
