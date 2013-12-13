@@ -10,5 +10,16 @@
         cacheable="True" compression="none" cookable="True" enabled="True"
         expression="" inline="False"/>
 
-</object>
+    <javascript id="++resource++plonetheme.francis.javascript/library1.js"
+        cacheable="True" compression="none" cookable="True" enabled="True"
+        expression="" inline="False"/>
 
+    <javascript id="++resource++plonetheme.francis.javascript/library2.js"
+        cacheable="True" compression="none" cookable="True" enabled="True"
+        expression="" inline="False"/>
+
+    <javascript id="++resource++plonetheme.francis.javascript/library3.js"
+        cacheable="True" compression="none" cookable="True" enabled="True"
+        expression="" inline="False"/>
+
+</object>
