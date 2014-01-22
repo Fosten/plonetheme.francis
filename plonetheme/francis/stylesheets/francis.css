@@ -8,7 +8,7 @@
 #content a,
 #content a:link,
 #content a:visited {
-    color:#990000;
+    color:#990000 !important;
     padding:2px;
 }
 
@@ -49,6 +49,8 @@ body {
 }
 #portal-header {margin-top:5px;}
 
+#portal-top {z-index:3;}
+
 #portal-personaltools-wrapper {display:none;}
 
 #portal-searchbox {
@@ -80,7 +82,7 @@ body {
     padding-top:10px;
 }
 
-.social a, #portal-footer a {color:white;}
+.social a, #portal-footer a {color:white !important;}
 
 #portal-footer a {
     border-bottom:1px solid white;
