@@ -2,7 +2,7 @@
 <div id="footer-portlet-contain">
 <div id="footer-logo">
 <img alt="Saint Francis University"
-     tal:attributes="src string:${context/@@plone_portal_state/navigation_root_url}/++resource++plonetheme.francis.images/logo.png" />
+     tal:attributes="src string:${context/@@plone_portal_state/navigation_root_url}/++resource++plonetheme.francis.images/stfrancis.png" />
 <p class="footer-addy">
 117 Evergreen Drive<br />
 P.O. Box 600<br />
