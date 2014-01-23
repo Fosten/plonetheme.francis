@@ -422,18 +422,6 @@ overflow:hidden;
 height: auto !important;
 }
 		
-		
-#image {
-width: 754px;
-float: left;
-
-margin-top: 15px;
-}
-
-#image img {
-margin-left: 130px;
-}
-
 #panels h2 span, #panels h3 span {
     background-color: transparent;
     padding-right: 8px;
