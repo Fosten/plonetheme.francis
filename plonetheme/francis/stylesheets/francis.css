@@ -13,6 +13,7 @@
 }
 
 a, a:link {transition: all 0.2s ease 0s;}
+.actionMenu a, .actionMenu a:link {transition: none;}
 
 h2 {
     background-image: url('++resource++plonetheme.francis.images/diagonal.gif');

@@ -50,7 +50,7 @@ dd.portletFooter a:hover {
 }
 
 #portal-footer a:hover {
-    color:#990000;
+    color:#990000 !important;
     background:white;
     padding:2px;
     text-shadow:none;
