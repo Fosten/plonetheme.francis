@@ -1,3 +1,6 @@
+(function ($) {
+
+$(document).ready(function() {
 var dayOfWeek = (new Date).getDay();
 var hours = ["Closed",          // Sunday
              "8:30 a.m. to 4:00 p.m. EST",   // Monday
@@ -7,4 +10,6 @@ var hours = ["Closed",          // Sunday
              "8:30 a.m. to 4:00 p.m. EST",   // Friday
              "Closed"];  // Saturday
 var todaysHours = hours[dayOfWeek];
-document.getElementById("hours").innerHTML = todaysHours;
+$('#hours').append(todaysHours);
+});
+})(jQuery);
