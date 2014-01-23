@@ -4,6 +4,7 @@
 <img alt="Saint Francis University"
      tal:attributes="src string:${context/@@plone_portal_state/navigation_root_url}/++resource++plonetheme.francis.images/stfrancis.png" />
 <p class="footer-addy">
+Saint Francis University<br />
 117 Evergreen Drive<br />
 P.O. Box 600<br />
 Loretto, PA 15940</p>

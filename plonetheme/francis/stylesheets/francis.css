@@ -222,9 +222,9 @@ ul.slideshow { min-height:250px !important;}
     padding:2px;
 }
 
-.footer-addy {margin:1em 0 .8em 1.2em;}
+.footer-addy {margin:1em 0 .8em;}
 
-.phone-icon {margin-left:1.4em;}
+.phone-icon {margin-left:.5em;}
 
 #footer-logo {
     float:left;
