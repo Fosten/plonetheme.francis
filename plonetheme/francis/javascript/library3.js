@@ -1,13 +1,10 @@
-var libchat_btn = {
-   iid: "731",
-   key: "65b81079ee09ac5",
-   domain: "asklibrarians.francis.edu",
-   color_backg: "#E5E5E5",
-   color_border: "#990000",
-   color_heading: "#990000",
-   question: "Enter your question:",
-   comments: "Comments on our chat system?",
-   star_ratings: true,
-   star_text: "Please rate this chat:",
-   depart_id: "658"
- };
+(function ($) {
+$(document).ready(function() {
+var libchat_bd4820fce2aaf107d3d57cc9d95d96f1 = {
+    iid:731,
+    color_backg: "#E5E5E5",
+    color_border: "#990000",
+    color_heading: "#990000"
+}
+});
+}) (jQuery);

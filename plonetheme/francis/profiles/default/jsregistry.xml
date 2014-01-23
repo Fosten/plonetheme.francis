@@ -6,6 +6,14 @@
         cacheable="True" compression="none" cookable="True" enabled="True"
         expression="" inline="False"/>
 
+    <javascript id="//stfrancisuniversity.worldcat.org/wcpa/html/searchapi.js"
+        cacheable="False" compression="safe" cookable="False" enabled="True"
+        expression="" inline="False"/>
+
+    <javascript id="//libanswers.com/js/chat_load_client.js"
+        cacheable="False" compression="safe" cookable="False" enabled="True"
+        expression="" inline="False"/>
+
     <javascript id="++resource++plonetheme.francis.javascript/organictabs.jquery.js"
         cacheable="True" compression="none" cookable="True" enabled="True"
         expression="" inline="False"/>

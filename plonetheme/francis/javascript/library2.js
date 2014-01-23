@@ -1,3 +1,5 @@
+(function ($) {
+$(document).ready(function() {
 // Mandatory customization
  var params = new Object();
  params["layout"] = "h";
@@ -19,3 +21,5 @@
  
  // Call WorldCat Local to display search box
  WCLSearch.display(params, "wcl_searchbox");
+});
+}) (jQuery);
