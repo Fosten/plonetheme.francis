@@ -14,6 +14,14 @@
         cacheable="False" compression="safe" cookable="False" enabled="True"
         expression="" inline="False"/>
 
+    <javascript id="++resource++plonetheme.francis.javascript/tabify.js"
+        cacheable="True" compression="none" cookable="True" enabled="True"
+        expression="" inline="False"/>
+
+    <javascript id="++resource++plonetheme.francis.javascript/jqueryui-1.10.4.jnine.min.js"
+        cacheable="True" compression="none" cookable="True" enabled="True"
+        expression="" inline="False"/>
+
     <javascript id="++resource++plonetheme.francis.javascript/organictabs.jquery.js"
         cacheable="True" compression="none" cookable="True" enabled="True"
         expression="" inline="False"/>
