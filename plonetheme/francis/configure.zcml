@@ -9,10 +9,16 @@
 
     <five:registerPackage package="." initialize=".initialize" />
 
-    <include file="profiles.zcml" />
-
     <include package="Products.EasyAsPiIE" />
     <include package="collective.responsivetheme" />
+
+    <!-- Profiles -->
+    <genericsetup:registerProfile
+        name="default"
+        title="francis theme"
+        directory="profiles/default"
+        description="Installs the 'francis theme' for Plone 4."
+        provides="Products.GenericSetup.interfaces.EXTENSION" />
 
     <!-- Register the browser layer -->
     <interface
