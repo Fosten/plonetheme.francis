@@ -26,19 +26,19 @@
         cacheable="True" compression="none" cookable="True" enabled="True"
         expression="" inline="False"/>
 
-    <javascript id="++resource++plonetheme.francis.javascript/library1.js"
+    <javascript id="++resource++plonetheme.francis.javascript/fancyhours.js"
         cacheable="True" compression="none" cookable="True" enabled="True"
         expression="" inline="False"/>
 
-    <javascript id="++resource++plonetheme.francis.javascript/library2.js"
+    <javascript id="++resource++plonetheme.francis.javascript/worldcat.js"
         cacheable="True" compression="none" cookable="True" enabled="True"
         expression="" inline="False"/>
 
-    <javascript id="++resource++plonetheme.francis.javascript/library3.js"
+    <javascript id="++resource++plonetheme.francis.javascript/libchat.js"
         cacheable="True" compression="none" cookable="True" enabled="True"
         expression="" inline="False"/>
 
-    <javascript id="++resource++plonetheme.francis.javascript/utils.js"
+    <javascript id="++resource++plonetheme.francis.javascript/panels.js"
         cacheable="True" compression="none" cookable="True" enabled="True"
         expression="" inline="False"/>
 
