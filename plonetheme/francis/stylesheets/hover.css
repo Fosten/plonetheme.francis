@@ -11,9 +11,7 @@ dl.portlet a:hover {background-color:#990000 !important; color:white !important;
 }
 
 div.managePortletsLink:hover a {
-
     color: white;
-
 }
 
 div.managePortletsLink:hover,
@@ -95,4 +93,10 @@ dd.portletFooter a:hover {
     background-color:white !important;
     padding:2px;
     text-shadow:none;
+}
+
+.context:hover {
+    color: white;
+    background: #444;
+    padding:2px;
 }
