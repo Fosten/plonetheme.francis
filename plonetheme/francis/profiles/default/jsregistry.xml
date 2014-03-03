@@ -10,7 +10,7 @@
         cacheable="False" compression="safe" cookable="False" enabled="True"
         expression="" inline="False"/>
 
-    <javascript id="http://libanswers.com/js/chat_load_client.js"
+    <javascript id="http://asklibrarians.francis.edu/load_chat.php?hash=bd4820fce2aaf107d3d57cc9d95d96f1"
         cacheable="False" compression="safe" cookable="False" enabled="True"
         expression="" inline="False"/>
 
