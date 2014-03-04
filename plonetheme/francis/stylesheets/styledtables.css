@@ -1,0 +1,115 @@
+/* styled table cell styles */
+
+table.styled {
+	width: 100%;
+	border: 1px solid grey;
+}
+
+table.styled th.header {
+	background-image: url(../images/bg-table-header.gif);
+	background-repeat: repeat-x;
+	background-color: #e9ebec;
+	color: #1a1919;
+	font-family: Georgia, Serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight:bold;
+	padding: 12px;
+}
+
+
+table.styled td.header {
+	background-image: url(../images/bg-table-header.gif);
+	background-repeat: repeat-x;
+	background-color: #e9ebec;
+	color: #1a1919;
+	font-family: Georgia, Serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight:bold;
+	padding: 12px;
+}
+
+table.styled td {
+	font-size: 12px;
+	padding: 12px;
+}
+
+table.styled tr:nth-child(odd) td {
+	background-image: url(../images/bg-table-stripe.gif);
+	background-repeat: repeat-x;
+	background-color: #f1f1f1;
+}
+
+/* styled table border styles */
+
+table.styled {
+	margin-bottom: 20px;
+	border-collapse: separate;
+}
+
+table.styled tr th {
+	border-top: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+
+table.styled tr th:first-child {
+	border-left: 1px solid #d5d5d5;
+}
+
+table.styled tr th:last-child {
+	border-right: 1px solid #d5d5d5;
+}
+
+table.styled tr:first-child th:first-child {
+	border-top-left-radius: 4px;
+}
+
+table.styled tr:first-child th:last-child {
+	border-top-right-radius: 4px;
+}
+
+table.styled tr td {
+	border-bottom: 1px solid #d5d5d5;
+	border-right: 1px solid #d5d5d5;
+}
+
+table.styled tr td:first-child {
+	border-left: 1px solid #d5d5d5;
+}
+
+table.styled tr:first-child th {
+	border-bottom: 1px solid #d5d5d5;
+}
+
+table.styled tr:last-child th, table.styled tr:last-child td {
+	border-top: none;
+}
+
+table.styled tr:last-child th:first-child, table.styled tr:last-child td:first-child {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 4px;
+}
+
+table.styled tr:last-child th:last-child, table.styled tr:last-child td:last-child {
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 0px;
+}
+
+a.btnlearnmore, a.btnlearnmore:link {
+	color: #1a1919;
+	float: right;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+a.btnlearnmore:hover {
+	text-decoration: underline;
+}
+
+
+table.layout td 
+{
+    vertical-align: top;
+}
