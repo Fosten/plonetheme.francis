@@ -60,6 +60,8 @@ body {
     background-repeat: no-repeat;
 }
 
+caption {display:none;}
+
 #visual-portal-wrapper {
     margin: 0 auto;
     width:980px !important;
