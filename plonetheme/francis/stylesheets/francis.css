@@ -61,6 +61,7 @@ body {
 }
 
 caption {display:none;}
+#content .description {display:none;}
 
 #visual-portal-wrapper {
     margin: 0 auto;
@@ -283,3 +284,7 @@ ul.subdomains a {
     background: -ms-linear-gradient(top, #ffffff 0%,#d8dadb 100%); /* IE10+ */
     background: linear-gradient(top, #ffffff 0%,#d8dadb 100%); /* W3C */  
 }
+
+#viewlet-social-like {margin-bottom:5px;}
+#plusonebt {width:70px !important;}
+#viewlet-social-like iframe {width:92px !important;}
