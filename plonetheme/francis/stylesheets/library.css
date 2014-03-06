@@ -1,3 +1,6 @@
+#content a:link, dl.portlet a:link {border-bottom:0px !important;}
+#ebooks1 {font-size:1.4em !important;}
+
 .library2 a.librarylink {display:none;}
 
 .library2 #navbar .container a.francislink img {padding: 12px 0 0 433px;}
@@ -299,7 +302,7 @@ background: #404A64;
 .panelcollapsed .panelcontent { display: none; }
  
 #panels {
-font-size:18px;
+font-size:18px !important;
 height:100%;
 float:left;
 }
@@ -684,15 +687,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0042d', end
 
 
 .ul1 { 
-text-align: center;
-padding: 10px;
+text-align: center !important;
+padding: 10px !important;
 list-style-type: none !important;
 font-size: 1.35em !important;
 display: inline !important;
+margin-left:0em !important;
 }
 .ul1 li {
-display: inline;
-padding: 0 10px;
+display: inline !important;
+padding: 10px 10px !important;
 }
 .ul1 li a {border-bottom:0px !important;}
 
@@ -710,6 +714,7 @@ list-style-type: none !important;
 }
 .ul2 li {
 padding: 5px 0px;
+font-size:1.2em !important;
 }
 .ul2 li a {border-bottom:0px !important;}
 
