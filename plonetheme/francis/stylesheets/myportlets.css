@@ -1,7 +1,5 @@
 dl.portlet a {padding:2px;}
 
-.managePortletsBelowTitleLink a {font-size:100% !important;}
-
 #portlets-footer h2 {
     background-image: none;
     color:white;
@@ -61,60 +59,6 @@ dl.portlet a {padding:2px;}
 }
 
 .portletBling dt.portletHeader, .portletBling dd.portletFooter {display:none !important;}
-
-/********* portlet links *********/
-
-.manageFooterPortletsLink {
-    background: transparent !important;
-    text-shadow:none;
-}
-
-.managePortletsAboveLink, .managePortletsBelowLink, .manageFooterPortletsLink {
-    margin:0;
-}
-
-.managePortletsAboveLink {
-    padding-top:0.5em;
-}
-
-.managePortletsLink a {
-    color: #444;
-}
-
-div.managePortletsLink,
-a.managePortletsLink,
-a.managePortletsFallback {
-    background: #ffffff; /* Old browsers */
-    background: -moz-linear-gradient(top, #ffffff 0%, #d8dadb 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d8dadb)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #ffffff 0%,#d8dadb 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #ffffff 0%,#d8dadb 100%); /* Opera11.10+ */
-    background: -ms-linear-gradient(top, #ffffff 0%,#d8dadb 100%); /* IE10+ */
-    background: linear-gradient(top, #ffffff 0%,#d8dadb 100%); /* W3C */  
-    border:0.1em solid #444444;
-    color: #444444 !important;  
-    text-align: center;
-    padding: 0.25em 0.5em;
-    font-size: 80%;
-    margin: 0 auto 1.5em;
-    border-radius: 0.5em;
-    -webkit-border-radius: 0.5em;
-    -moz-border-radius: 0.5em;
-}
-
-a.managePortletsFallback {
-    display:inline-block; /* in order for our vertical margins to work on inline element */
-}
-
-#content a.managePortletsFallback {
-    display: block;
-    border-bottom: none !important;
-}
-
-#portlet-prefs a {
-    border: none;
-    line-height: 2em;
-}
 
 dd.portletItem a,
 dd.portletFooter a,

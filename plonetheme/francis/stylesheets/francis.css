@@ -14,23 +14,6 @@
 
 a, a:link {transition: all 0.2s ease 0s;}
 
-.actionMenu a, 
-.actionMenu a:link, 
-.kssattr-serveraction-foldercontents_update_table a,
-.kssattr-serveraction-foldercontents_update_table a:link {
-    transition: none;
-}
-
-.actionMenu a,
-.actionMenu a:link {
-    color: white;
-}
-
-.kssattr-serveraction-foldercontents_update_table a,
-.kssattr-serveraction-foldercontents_update_table a:link {
-    color:#990000 !important;
-}
-
 h2 {
     background-image: url('++resource++plonetheme.francis.images/diagonal.gif');
     background-position: 0 14px;
@@ -267,23 +250,6 @@ ul.subdomains a {
 }
 
 .accessibility-statement {margin:1em 0;}
-
-.context {
-    color:#444;
-    background-color:pink;
-    padding:2px;
-    border:0.1em solid #444;
-    border-radius:.5em;
-    -webkit-border-radius:.5em;
-    -moz-border-radius:.5em;
-    background: #ffffff; /* Old browsers */
-    background: -moz-linear-gradient(top, #ffffff 0%, #d8dadb 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d8dadb)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #ffffff 0%,#d8dadb 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #ffffff 0%,#d8dadb 100%); /* Opera11.10+ */
-    background: -ms-linear-gradient(top, #ffffff 0%,#d8dadb 100%); /* IE10+ */
-    background: linear-gradient(top, #ffffff 0%,#d8dadb 100%); /* W3C */  
-}
 
 #viewlet-social-like {margin-bottom:5px;}
 #plusonebt {width:70px !important;}

@@ -10,19 +10,6 @@ dl.portlet a:hover {background-color:#990000 !important; color:white !important;
     -webkit-border-radius:4px;
 }
 
-div.managePortletsLink:hover a {
-    color: white;
-}
-
-div.managePortletsLink:hover,
-a.managePortletsFallback:hover,
-a.managePortletsLink:hover,
-.managePortletsBelowTitleLink a:hover {
-    background: #444444 !important;
-    color: white !important;
-    border:1px solid white;
-}
-
 dd.portletItem a:hover, 
 dd.portletFooter a:hover, 
 dd.portletFooter a:hover {
@@ -93,10 +80,4 @@ dd.portletFooter a:hover {
     background-color:white !important;
     padding:2px;
     text-shadow:none;
-}
-
-.context:hover {
-    color: white;
-    background: #444;
-    padding:2px;
 }
