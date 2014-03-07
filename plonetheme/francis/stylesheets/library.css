@@ -201,74 +201,6 @@ table.styled th.header {
     font-style: normal;
 }
 
-/* panel */
-.panel, .panelcollapsed {
-    background: #404A64;
-    margin: 0 5px 15px 5px;
-    padding: 0px 0px 5px;
-    width: 370px;
-    /*width: 695px;*/
-    /*border: 0px solid #999;*/
-    border-radius: 3px 3px 3px 3px;
-}
-
-/* panel heading */
-.panel h2, .panelcollapsed h2 {
-    font-size: 24px;
-    line-height: 35px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    margin: 0px;
-    border-radius: 3px 3px 3px 3px;
-    /*box-shadow: -5px 5px 5px #d5d5d5;*/
-    text-shadow: 1px 1px 0 #444444;
-    font-weight: normal;
-    padding: 4px;
-    background: #404A64 url(arrow-up.gif) no-repeat 630px;
-    /*border-bottom: 0px solid #999;
-     -moz-border-radius: 3px;
-     -webkit-border-radius: 3px;
-     border-top: 0px solid #FFF;
-     border-right: 0px solid #FFF;
-     border-left: 0px solid #FFF;*/
-}
-
-/* panel heading on rollover */
-.panel h2:hover, .panelcollapsed h2:hover, .panelcollapsed:hover {
-    background-color: #505C7C;
-    cursor: hand;
-    cursor: pointer;
-}
-
-/* heading of a collapsed panel */
-.panelcollapsed h2 {
-    background: #404A64 url(arrow-dn.gif) no-repeat 630px;
-    border-color: #404A64;
-}
-
-/* panel content - do not set borders or paddings */
-.panelcontent {
-    background: #F5F5F5;
-    overflow: hidden;
-}
-
-/* collapsed panel content */
-.panelcollapsed .panelcontent {
-    display: none;
-}
-
-#panels {
-    font-size: 18px !important;
-    height: 100%;
-    float: left;
-}
-
-#panelsleft, #panelsright, #panelwide {
-    float: left;
-}
-/*--end for panels--*/
-
 #big-picture {
     background-image: url(/uploadedImages/Content/Home/Academics/Academics.jpg);
 }
@@ -374,13 +306,6 @@ p#breadcrumb-nav a:hover {
 .holdme {
     overflow: hidden;
     height: auto !important;
-}
-
-#panels h2 span, #panels h3 span {
-    background-color: transparent;
-    padding-right: 8px;
-    font-family: 'Volkhov', serif;
-    font-style: normal;
 }
 
 #la_widget #la_qformbutton {
@@ -563,10 +488,6 @@ p#breadcrumb-nav a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0042d', endColorstr='#b20022',GradientType=0 ) !important; /* IE6-8 */
 }
 
-#panelcoursereserves {
-    margin: 25px 50px 10px 50px;
-}
-
 .librarybutton2 {
     width: 50%;
     /* background-color: #990000; */
@@ -727,35 +648,6 @@ p#breadcrumb-nav a:hover {
     display: block;
     margin: 0 auto;
     width: 70%;
-}
-
-#panelsbuttons a {
-    padding: 5px 10px;
-    /* color: #fff; */
-    line-height: 2em;
-    font-size: 1em;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #404A64;
-    text-shadow: 0px 0px 8px #fff;
-    text-align: center;
-    /* background: -moz-linear-gradient(center bottom , #6d0019  19%, #8f0222 60%, #a90329 80%); */
-    background-color: lightgray;
-    font-family: Arial, sans-serif;
-    margin: 0 auto;
-    text-decoration: none;
-    font-variant: small-caps;
-}
-
-#panelsbuttons a:hover {
-    background-color: gray;
-    /* background: -moz-linear-gradient(center bottom , #980020  19%, #B00227 60%, #C8042D 80%); */
-}
-
-#panelsbuttons {
-    /* text-decoration: none; */
-    width: 300px;
-    float: left;
-    margin-left: 260px;
 }
 
 #feedbackbox {
