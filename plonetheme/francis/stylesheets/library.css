@@ -1,7 +1,67 @@
+/*Globals*/
 #content a:link, dl.portlet a:link {
     border-bottom: 0px !important;
 }
 
+p#breadcrumb-nav {
+    display: none
+}
+
+ul#subnavigation li a, ul#subnavigation li a:link {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+table.styled th.header {
+    font-style: normal;
+}
+
+#big-picture {
+    background-image: url(/uploadedImages/Content/Home/Academics/Academics.jpg);
+}
+
+p#breadcrumb-nav {
+    color: #221d19;
+    font-size: 11px;
+    left: 15px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 2px;
+}
+
+p#breadcrumb-nav a, p#breadcrumb-nav a:link {
+    color: #990000;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-weight: bold;
+}
+
+p#breadcrumb-nav a:hover {
+    color: white;
+    background: #990000;
+    padding: 3px;
+}
+
+div#column-right .content-item-content h4 {
+    color: #990000;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+div#column-right .content-item-item p {
+    color: #333333;
+    font-size: 1.1em;
+    line-height: 15px;
+    margin: 0 0 8px;
+    padding: 0;
+}
+
+/*Panels Custom CSS */
 #ebooks1 {
     font-size: 1.4em !important;
 }
@@ -176,10 +236,6 @@ div.level h1.main-title {
     margin-bottom: 5px;
 }
 
-p#breadcrumb-nav {
-    display: none
-}
-
 #galleria {
     margin-bottom: 2em;
 }
@@ -190,45 +246,6 @@ p#breadcrumb-nav {
     background-color: #990000;
     border-radius: 5px;
     padding: 2px;
-}
-
-ul#subnavigation li a, ul#subnavigation li a:link {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-}
-
-table.styled th.header {
-    font-style: normal;
-}
-
-#big-picture {
-    background-image: url(/uploadedImages/Content/Home/Academics/Academics.jpg);
-}
-
-p#breadcrumb-nav {
-    color: #221d19;
-    font-size: 11px;
-    left: 15px;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    margin-top: 2px;
-}
-
-p#breadcrumb-nav a, p#breadcrumb-nav a:link {
-    color: #990000;
-    text-decoration: none;
-    padding: 3px;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    font-weight: bold;
-}
-
-p#breadcrumb-nav a:hover {
-    color: white;
-    background: #990000;
-    padding: 3px;
 }
 
 #lci_chat_load, #hourswrapper {
@@ -671,19 +688,4 @@ p#breadcrumb-nav a:hover {
     text-shadow: 1px 1px 2px lightgray;
     background: lightgray;
     border-radius: 3px;
-}
-
-div#column-right .content-item-content h4 {
-    color: #990000;
-    font-size: 1.2em;
-    margin: 0;
-    padding: 0;
-}
-
-div#column-right .content-item-item p {
-    color: #333333;
-    font-size: 1.1em;
-    line-height: 15px;
-    margin: 0 0 8px;
-    padding: 0;
 }
