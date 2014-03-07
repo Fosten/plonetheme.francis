@@ -1,4 +1,15 @@
 /*Globals*/
+div.level h1.main-title, div.level h2.main-title {
+    margin-left: 0;
+    width: 100%;
+}
+
+div.level h1.main-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
 #content a:link, dl.portlet a:link {
     border-bottom: 0px !important;
 }
@@ -61,7 +72,53 @@ div#column-right .content-item-item p {
     padding: 0;
 }
 
-/*Library Globals****************************************************************************************************************/
+/*Library Global Styles****************************************************************************************************************/
+/* todays hours styles*/
+#hourswrapper {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 500px !important;
+}
+
+#hourswrap1 {
+    border-radius: 115px 115px 115px 115px;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    text-shadow: 2px 2px #E5E5E5;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#hourswrap2 {
+    border-radius: 115px 115px 115px 115px;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    text-shadow: 2px 2px #E5E5E5;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#hours {
+    border-radius: 115px 115px 115px 115px;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    text-shadow: 2px 2px #E5E5E5;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#hourswraptotal {
+    margin-left: 25px;
+}
 hr.style-two {
     border: 0;
     height: 1px;
@@ -71,9 +128,132 @@ hr.style-two {
     background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
 
+#lci_chat_load, #hourswrapper {
+    text-align: center;
+    border-color: lightgrey !important;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: rgb(234,234,234);
+    background: linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -o-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -moz-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -webkit-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -ms-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.19, rgb(234,234,234)), color-stop(0.6, rgb(244,244,244)), color-stop(0.8, rgb(249,249,249)));
+    box-shadow: 0px 1px 2px 1px #ccc;
+    -moz-box-shadow: 0px 1px 2px 1px #ccc;
+    -webkit-box-shadow: 0px 1px 2px 1px #ccc;
+}
+
+.lci_h3 {
+    background-image: none;
+}
+
+.gradientblock {
+    margin-left: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-color: lightgrey !important;
+    border-radius: 4px;
+    moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0px 1px 2px 1px #ccc;
+    -moz-box-shadow: 0px 1px 2px 1px #ccc;
+    -webkit-box-shadow: 0px 1px 2px 1px #ccc;
+    background: rgb(234,234,234);
+    background: linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -o-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -moz-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -webkit-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -ms-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.19, rgb(234,234,234)), color-stop(0.6, rgb(244,244,244)), color-stop(0.8, rgb(249,249,249)));
+}
+
+.gradientblock h2 span {
+    background-color: #F9F9F9;
+}
+
+#galleria {
+    margin-bottom: 2em;
+}
+
+.linkhover a:hover {
+    background-color: #990000 !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+    padding: 2px !important;
+    text-decoration: none !important;
+}
+
+.ul1 {
+    text-align: center !important;
+    padding: 10px !important;
+    list-style-type: none !important;
+    font-size: 1.35em !important;
+    display: inline !important;
+    margin-left: 0em !important;
+}
+
+.ul1 li {
+    display: inline !important;
+    padding: 10px 10px !important;
+}
+
+.ul1 li a {
+    border-bottom: 0px !important;
+}
+
+.ul1 A:link {
+    text-decoration: none
+}
+
+.ul1 A:visited {
+    text-decoration: none
+}
+
+.ul1 A:active {
+    text-decoration: none
+}
+
+.ul1 A:hover {
+    text-decoration: none;
+}
+
+.ul2 {
+    font-size: 100% !important;
+    text-align: center;
+    padding: 10px;
+    list-style-type: none !important;
+}
+
+.ul2 li {
+    padding: 5px 0px;
+    font-size: 1.2em !important;
+}
+
+.ul2 li a {
+    border-bottom: 0px !important;
+}
+
+.ul2 A:link {
+    text-decoration: none
+}
+
+.ul2 A:visited {
+    text-decoration: none
+}
+
+.ul2 A:active {
+    text-decoration: none
+}
+
+.ul2 A:hover {
+    text-decoration: none;
+}
 /*END Library Globals****************************************************************************************************************/
 
-/*Panels Custom CSS **************************************************************************************************************/
+/*Panels Custom CSS ***************************************************************************************************************************************************/
 
 
 .library2 a.librarylink {
@@ -84,13 +264,10 @@ hr.style-two {
     padding: 12px 0 0 433px;
 }
 
-.linkhover a:hover {
-    background-color: #990000;
-    border-radius: 5px;
-    color: #fff;
-    padding: 2px;
-    text-decoration: none;
-}
+
+/*Panels Custom CSS ******************************************************************************************/
+
+
 
 /*FOR FACULTY AND STAFF PAGE*****************************************************************************************************************/
 #liaisonswrapper1 {
@@ -148,183 +325,12 @@ hr.style-two {
 
 
 
-.outlineblock {
-    margin-left: 25px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 2px;
-    border-color: lightgrey !important;
-    border-radius: 4px;
-    moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    /*box-shadow: 0px 1px 2px 1px #ccc;
-     -moz-box-shadow: 0px 1px 2px 1px #ccc;
-     -webkit-box-shadow: 0px 1px 2px 1px #ccc;*/
-}
 
-.gradientblock {
-    margin-left: 25px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-color: lightgrey !important;
-    border-radius: 4px;
-    moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    box-shadow: 0px 1px 2px 1px #ccc;
-    -moz-box-shadow: 0px 1px 2px 1px #ccc;
-    -webkit-box-shadow: 0px 1px 2px 1px #ccc;
-    background: rgb(234,234,234);
-    background: linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -o-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -moz-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -webkit-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -ms-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.19, rgb(234,234,234)), color-stop(0.6, rgb(244,244,244)), color-stop(0.8, rgb(249,249,249)));
-}
-
-.gradientblock h2 span {
-    background-color: #F9F9F9;
-}
-
-.aboutusblock p {
-    font-size: 14px !important;
-}
-
-.aboutusblock {
-    margin-left: 25px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-color: lightgrey !important;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    background: rgb(234,234,234);
-    background: linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -o-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -moz-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -webkit-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -ms-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.19, rgb(234,234,234)), color-stop(0.6, rgb(244,244,244)), color-stop(0.8, rgb(249,249,249)));
-    box-shadow: 0px 1px 2px 1px #ccc;
-    -moz-box-shadow: 0px 1px 2px 1px #ccc;
-    -webkit-box-shadow: 0px 1px 2px 1px #ccc;
-}
-
-.aboutusblock h2 span {
-    background-color: #F9F9F9;
-}
-
-.aboutuscolumn ul {
-    margin-top: 15px;
-}
-
-.aboutuscolumn ul li {
-    font-size: 14px;
-}
-
-.texthighlight1 {
-    color: white;
-    font-weight: bold;
-    font-size: 1.1em;
-    background-color: #990000;
-    border-radius: 5px;
-    padding: 4px;
-    box-shadow: 2px 2px #cccccc;
-}
-
-div.level h1.main-title, div.level h2.main-title {
-    margin-left: 0;
-    width: 100%;
-}
-
-div.level h1.main-title {
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-#galleria {
-    margin-bottom: 2em;
-}
-
-#newcredolinkarea a:hover {
-    color: white;
-    text-decoration: none;
-    background-color: #990000;
-    border-radius: 5px;
-    padding: 2px;
-}
-
-#lci_chat_load, #hourswrapper {
-    text-align: center;
-    border-color: lightgrey !important;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    background: rgb(234,234,234);
-    background: linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -o-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -moz-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -webkit-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -ms-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.19, rgb(234,234,234)), color-stop(0.6, rgb(244,244,244)), color-stop(0.8, rgb(249,249,249)));
-    box-shadow: 0px 1px 2px 1px #ccc;
-    -moz-box-shadow: 0px 1px 2px 1px #ccc;
-    -webkit-box-shadow: 0px 1px 2px 1px #ccc;
-}
-
-.lci_h3 {
-    background-image: none;
-}
 
 #advanced-search {
     display: block;
 }
 
-#hourswrapper {
-    margin: 0 auto;
-    overflow: hidden;
-    width: 500px !important;
-}
-
-#hourswrap1 {
-    border-radius: 115px 115px 115px 115px;
-    font-family: Arial, sans-serif;
-    font-size: 1em;
-    height: 2em;
-    line-height: 2em;
-    text-align: center;
-    text-shadow: 2px 2px #E5E5E5;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-#hourswrap2 {
-    border-radius: 115px 115px 115px 115px;
-    font-family: Arial, sans-serif;
-    font-size: 1em;
-    height: 2em;
-    line-height: 2em;
-    text-align: center;
-    text-shadow: 2px 2px #E5E5E5;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-#hours {
-    border-radius: 115px 115px 115px 115px;
-    font-family: Arial, sans-serif;
-    font-size: 1em;
-    height: 2em;
-    line-height: 2em;
-    text-align: center;
-    text-shadow: 2px 2px #E5E5E5;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-#hourswraptotal {
-    margin-left: 25px;
-}
 
 .holdme {
     overflow: hidden;
@@ -573,104 +579,72 @@ div.level h1.main-title {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0042d', endColorstr='#b20022',GradientType=0 ); /* IE6-8 */
 }
 
-.ul1 {
-    text-align: center !important;
-    padding: 10px !important;
-    list-style-type: none !important;
-    font-size: 1.35em !important;
-    display: inline !important;
-    margin-left: 0em !important;
+
+
+
+
+
+
+
+
+/*ABOUT US PAGE**************************************************************************************************************************************************************************************/
+.aboutusblock p {
+    font-size: 14px !important;
 }
 
-.ul1 li {
-    display: inline !important;
-    padding: 10px 10px !important;
-}
-
-.ul1 li a {
-    border-bottom: 0px !important;
-}
-
-.ul1 A:link {
-    text-decoration: none
-}
-
-.ul1 A:visited {
-    text-decoration: none
-}
-
-.ul1 A:active {
-    text-decoration: none
-}
-
-.ul1 A:hover {
-    text-decoration: none;
-}
-
-.ul2 {
-    font-size: 100% !important;
-    text-align: center;
+.aboutusblock {
+    margin-left: 25px;
     padding: 10px;
-    list-style-type: none !important;
+    margin-bottom: 10px;
+    border-color: lightgrey !important;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: rgb(234,234,234);
+    background: linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -o-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -moz-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -webkit-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -ms-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.19, rgb(234,234,234)), color-stop(0.6, rgb(244,244,244)), color-stop(0.8, rgb(249,249,249)));
+    box-shadow: 0px 1px 2px 1px #ccc;
+    -moz-box-shadow: 0px 1px 2px 1px #ccc;
+    -webkit-box-shadow: 0px 1px 2px 1px #ccc;
 }
 
-.ul2 li {
-    padding: 5px 0px;
-    font-size: 1.2em !important;
+.aboutusblock h2 span {
+    background-color: #F9F9F9;
 }
 
-.ul2 li a {
-    border-bottom: 0px !important;
+.aboutuscolumn ul {
+    margin-top: 15px;
 }
 
-.ul2 A:link {
-    text-decoration: none
+.aboutuscolumn ul li {
+    font-size: 14px;
 }
 
-.ul2 A:visited {
-    text-decoration: none
-}
 
-.ul2 A:active {
-    text-decoration: none
-}
+/*END ABOUT US PAGE***********************************************************************************************************************/
 
-.ul2 A:hover {
-    text-decoration: none;
-}
-
-#referencehours table, #referencehours th, #referencehours td {
-    border: 1px solid black;
-    text-align: center;
-}
-
-#referencehours table {
-    border-collapse: collapse;
-    margin: 15px auto;
-    width: 600px;
-}
-
-#journalfindersearch1 p {
-    letter-spacing: 1px;
-    text-align: center;
-}
-
-#journalfindersearch1 {
-    margin: 15px 0;
-}
+/*POTENTIALLY OR DEFINITELY UNUSED*/
 
 #interlibraryloanhelp {
     text-align: center;
     padding-bottom: 15px;
 }
-
-#navhours {
-    background-color: #fff;
-    text-align: center;
-    border-radius: 5px;
-    display: block;
-    margin: 0 auto;
-    width: 70%;
+.outlineblock {
+    margin-left: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 2px;
+    border-color: lightgrey !important;
+    border-radius: 4px;
+    moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    /*box-shadow: 0px 1px 2px 1px #ccc;
+     -moz-box-shadow: 0px 1px 2px 1px #ccc;
+     -webkit-box-shadow: 0px 1px 2px 1px #ccc;*/
 }
 
 #feedbackbox {
@@ -694,4 +668,35 @@ div.level h1.main-title {
     text-shadow: 1px 1px 2px lightgray;
     background: lightgray;
     border-radius: 3px;
+}
+
+
+#navhours {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+#referencehours table, #referencehours th, #referencehours td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#referencehours table {
+    border-collapse: collapse;
+    margin: 15px auto;
+    width: 600px;
+}
+
+/* NOT SURE IF THIS IS USED OR NOT?!?! */
+.texthighlight1 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: #990000;
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 2px 2px #cccccc;
 }

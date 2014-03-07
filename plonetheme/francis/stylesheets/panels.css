@@ -1,7 +1,30 @@
-/*Panel 1-Books*/
+/*Panel 1- Books and More*/
 
+#ebooks1 {
+    font-size: 1.4em !important;
+}
 
+#newcredolinkarea a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #990000;
+    border-radius: 5px;
+    padding: 2px;
+}
 
+/*Panel 2 - Research Databases*/
+/*Panel 3 - Research Guides*/
+/*Panel 4 - Get Research Help*/
+/*Panel 5 - Interlibrary Loan*/
+#journalfindersearch1 {
+    margin: 15px 0;
+}
+#journalfindersearch1 p {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*Panel 6 - Special Collections*/
 
 /*General Panel Styles*/
 /* panel */
