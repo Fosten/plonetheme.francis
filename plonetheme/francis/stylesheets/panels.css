@@ -1,4 +1,9 @@
-
+.panelcollapsed {width:750px !important;}
+.ul1 {font-size: 1.25em; !important}
+.panelcollapsed table {width:100%;}
+.panelcollapsed table img { border: 0px none; }
+#panelsleft {display:inline-block; float:none; vertical-align:top;}
+#panelsright {display:inline-block; float:none; vertical-align:top; }
 
 /*Panel 1- Books and More*/
 
@@ -16,6 +21,11 @@
 #WCLwrapper {
     margin-top: 5px;
 }
+/*stripped from inline*/
+#wcl_seasrchbox {display:none;}
+#newcredodiv {width: 47%; display: block; margin: 25px auto;}
+#newcredodiv p {text-align:center !important;}
+#newcredolinkarea { text-align: center; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; margin: 0px auto; width: 91%; font-weight: bold;} 
 
 /*Panel 2 - Research Databases*/
 #proquestsearchwidget {
@@ -31,8 +41,15 @@
     margin: 10px 0;
     font-size: 1em;
 }
+/*stripped from inline*/
+#researchguidespaneltagline {font-size: 1.25em; text-shadow: rgb(211, 211, 211) 2px 2px 1px; text-align: center;}
 
-/*Panel 4 - Get Research Help these are in the table style css*/ 
+
+/*Panel 4 - Get Research Help most are in the table style css*/ 
+
+/*stripped from inline*/
+#researchhelppaneltitle {background-color: #870221 !important;}
+#getresearchhelpheading {background-color: rgb(135, 2, 33);}
 
 /*Panel 5 - Interlibrary Loan*/
 #journalfindersearch1 {
@@ -41,7 +58,9 @@
 #journalfindersearch1 p {
     letter-spacing: 1px;
     text-align: center;
+	font-size: 15px; line-height: 20px; 
 }
+
 
 /*Panel 6 - Special Collections most of these are ul1/ul2 etc*/
 

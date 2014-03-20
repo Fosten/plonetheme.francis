@@ -12,6 +12,10 @@
 }
 
 /*Globals*/
+#websitefeedbackleftcolumn {margin-top: 15px; margin-right: 0px; width: 202px; font-size: 12px;"}
+#websitefeedbackleftcolumn p {font-size: 12px;}
+#contactusaside {margin-top: 15px; margin-right: 0px; width: 202px;}
+
 div.level h1.main-title, div.level h2.main-title {
     margin-left: 0;
     width: 100%;
@@ -276,6 +280,25 @@ hr.style-two {
 /*END Library Globals****************************************************************************************************************/
 
 /*FOR FACULTY AND STAFF PAGE*****************************************************************************************************************/
+liaisonsbox_moreinfo {text-align: center; font-size: 1.25em; font-weight: bold; }
+#liaisonswrapper {text-align:center;}
+
+#liaisonswrapper ul li {list-style:none;line-height:2em;font-size:1.2em;}
+
+.liaisonslogo {background-color: #0A4366;
+box-shadow: 4px 5px 5px #948282;
+color: #FFFFFF;
+letter-spacing: 2px;
+padding: 5px 10px;
+text-align: center;
+border-radius:5px;
+width:75%;
+display:block;
+margin:0 auto;
+font-weight:bold;
+font-size:1.35em;}
+
+
 #liaisonswrapper1 {
     display: block;
     margin: 0 auto;
