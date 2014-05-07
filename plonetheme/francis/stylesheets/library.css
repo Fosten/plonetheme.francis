@@ -1,3 +1,4 @@
+
 .holdme {
     overflow: hidden;
     height: auto !important;
@@ -12,9 +13,29 @@
 }
 
 /*Globals*/
-#websitefeedbackleftcolumn {margin-top: 15px; margin-right: 0px; width: 202px; font-size: 12px;"}
+#hourswrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 500px !important;
+}
+#hourswrap1 {font-size: 1.25em;}
+#hourswrap2 {
+  border-radius: 115px;
+  display: inline-block;
+  font-family: Arial,sans-serif;
+  font-size: 1em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  text-shadow: 2px 2px #E5E5E5;
+  text-transform: uppercase;
+}
+
+#websitefeedbackleftcolumn {margin-top: 15px; margin-right: 0px; width: 202px; font-size: 12px;border: 1px solid gray;border-radius:5px; text-align:center;}
 #websitefeedbackleftcolumn p {font-size: 12px;}
-#contactusaside {margin-top: 15px; margin-right: 0px; width: 202px;}
+#websitefeedbackleftcolumn h3 {border-bottom:1px solid gray;}
+#contactusaside {margin-top: 15px; margin-right: 0px; width: 202px;border: 1px solid gray;border-radius:5px; text-align:center;}
+#contactusaside h3 {border-bottom:1px solid gray;}
 
 div.level h1.main-title, div.level h2.main-title {
     margin-left: 0;
@@ -29,6 +50,7 @@ div.level h1.main-title {
 
 #content a:link, dl.portlet a:link {
     border-bottom: 0px !important;
+	
 }
 
 p#breadcrumb-nav {

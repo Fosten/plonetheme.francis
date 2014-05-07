@@ -1,9 +1,10 @@
 .panelcollapsed {width:750px !important;}
-.ul1 {font-size: 1.25em; !important}
+.ul1 {font-size: 1.25em !important;
+list-style-type:none !important;}
 .panelcollapsed table {width:100%;}
 .panelcollapsed table img { border: 0px none; }
 #panelsleft {display:inline-block; float:none; vertical-align:top;width: 370px;}
-#panelsright {display:inline-block; float:none; vertical-align:top;width: 370px; }
+#panelsright {display:inline-block; float:none; vertical-align:top;width: 370px;  }
 
 /*Panel 1- Books and More*/
 
