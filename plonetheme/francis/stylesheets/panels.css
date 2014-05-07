@@ -2,8 +2,8 @@
 .ul1 {font-size: 1.25em; !important}
 .panelcollapsed table {width:100%;}
 .panelcollapsed table img { border: 0px none; }
-#panelsleft {display:inline-block; float:none; vertical-align:top;}
-#panelsright {display:inline-block; float:none; vertical-align:top; }
+#panelsleft {display:inline-block; float:none; vertical-align:top;width: 370px;}
+#panelsright {display:inline-block; float:none; vertical-align:top;width: 370px; }
 
 /*Panel 1- Books and More*/
 
@@ -181,7 +181,7 @@
     background: #404A64;
     margin: 0 5px 15px 5px;
     padding: 0px 0px 5px;
-    width: 370px;
+    
     /*width: 695px;*/
     /*border: 0px solid #999;*/
     border-radius: 3px 3px 3px 3px;
