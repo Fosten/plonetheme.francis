@@ -65,7 +65,7 @@ a.managePortletsFallback {
     color:#990000 !important;
 }
 
-.context {
+.context, .button-field {
     color:#444;
     padding:2px;
     border:0.1em solid #444;
@@ -100,3 +100,5 @@ a.managePortletsLink:hover,
     background: #444;
     padding:2px;
 }
+
+li.formTab a span:hover {color:black;}

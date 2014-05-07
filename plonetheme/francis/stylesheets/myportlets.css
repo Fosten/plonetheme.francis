@@ -77,3 +77,7 @@ dd.portletFooter a:visited {
     font-size:1.1em;
     padding:0.42em 0;
 }
+
+#content dl.portlet {
+    font-size:12px;
+}
