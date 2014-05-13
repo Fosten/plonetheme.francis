@@ -192,6 +192,10 @@ hr.style-two {
     -webkit-box-shadow: 0px 1px 2px 1px #ccc;
 }
 
+#lci_chat_load {
+    width:195px !important;
+}
+
 .lci_h3 {
     background-image: none;
 }
