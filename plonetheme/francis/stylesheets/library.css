@@ -1,41 +1,45 @@
-
 .holdme {
     overflow: hidden;
     height: auto !important;
 }
 
-#la_widget #la_qformbutton {
-    background: #990000 !important;
-}
-
-.ui-widget button {
-    border: 1px solid #990000 !important;
-}
+#la_widget #la_qformbutton {background: #990000 !important;}
+.ui-widget button {border: 1px solid #990000 !important;}
 
 /*Globals*/
 #hourswrapper {
-  margin: 0 auto;
-  overflow: hidden;
-  width: 500px !important;
-}
-#hourswrap1 {font-size: 1.25em;}
-#hourswrap2 {
-  border-radius: 115px;
-  display: inline-block;
-  font-family: Arial,sans-serif;
-  font-size: 1em;
-  height: 2em;
-  line-height: 2em;
-  text-align: center;
-  text-shadow: 2px 2px #E5E5E5;
-  text-transform: uppercase;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 500px !important;
+    font-size: 92% !important;
 }
 
-#websitefeedbackleftcolumn {margin-top: 15px; margin-right: 0px; width: 202px; font-size: 12px;border: 1px solid gray;border-radius:5px; text-align:center;}
-#websitefeedbackleftcolumn p {font-size: 12px;}
-#websitefeedbackleftcolumn h3 {border-bottom:1px solid gray;}
-#contactusaside {margin-top: 15px; margin-right: 0px; width: 202px;border: 1px solid gray;border-radius:5px; text-align:center;}
-#contactusaside h3 {border-bottom:1px solid gray;}
+#hourswrap1 {font-size: 1.25em;}
+
+#hourswrap2 {
+    border-radius: 115px;
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    font-size: 1em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    text-shadow: 2px 2px #E5E5E5;
+    text-transform: uppercase;
+}
+
+#websitefeedbackleftcolumn, #contactusaside {
+    margin-top: 15px;
+    margin-right: 0px;
+    width: 202px;
+    font-size: 12px;
+    border: 1px solid gray;
+    border-radius:5px;
+    text-align:center;
+}
+
+#websitefeedbackleftcolumn, #websitefeedbackleftcolumn p {font-size: 12px;}
+#websitefeedbackleftcolumn h3, #contactusaside h3 {border-bottom:1px solid gray;}
 
 div.level h1.main-title, div.level h2.main-title {
     margin-left: 0;
@@ -47,26 +51,15 @@ div.level h1.main-title {
     margin-bottom: 5px;
 }
 
-
-#content a:link, dl.portlet a:link {
-    border-bottom: 0px !important;
-	
-}
-
-p#breadcrumb-nav {
-    display: none
-}
+#content a:link, dl.portlet a:link {border-bottom: 0px !important;}
+p#breadcrumb-nav {display: none}
 
 ul#subnavigation li a, ul#subnavigation li a:link {
     font-family: Arial, sans-serif;
     font-size: 14px;
 }
 
-table.styled th.header {
-    font-style: normal;
-}
-
-
+table.styled th.header {font-style: normal;}
 
 p#breadcrumb-nav {
     color: #221d19;
@@ -111,13 +104,8 @@ div#column-right .content-item-item p {
 
 /*Library Global Styles****************************************************************************************************************/
 
-.library2 a.librarylink {
-    display: none;
-}
-
-.library2 #navbar .container a.francislink img {
-    padding: 12px 0 0 433px;
-}
+.library2 a.librarylink {display: none;}
+.library2 #navbar .container a.francislink img {padding: 12px 0 0 433px;}
 
 /* todays hours styles*/
 #hourswrapper {
@@ -126,7 +114,7 @@ div#column-right .content-item-item p {
     width: 500px !important;
 }
 
-#hourswrap1 {
+#hourswrap1, #hourswrap2, #hours {
     border-radius: 115px 115px 115px 115px;
     font-family: Arial, sans-serif;
     font-size: 1em;
@@ -138,33 +126,8 @@ div#column-right .content-item-item p {
     display: inline-block;
 }
 
-#hourswrap2 {
-    border-radius: 115px 115px 115px 115px;
-    font-family: Arial, sans-serif;
-    font-size: 1em;
-    height: 2em;
-    line-height: 2em;
-    text-align: center;
-    text-shadow: 2px 2px #E5E5E5;
-    text-transform: uppercase;
-    display: inline-block;
-}
+#hourswraptotal {margin-left: 25px;}
 
-#hours {
-    border-radius: 115px 115px 115px 115px;
-    font-family: Arial, sans-serif;
-    font-size: 1em;
-    height: 2em;
-    line-height: 2em;
-    text-align: center;
-    text-shadow: 2px 2px #E5E5E5;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-#hourswraptotal {
-    margin-left: 25px;
-}
 hr.style-two {
     border: 0;
     height: 1px;
@@ -192,13 +155,8 @@ hr.style-two {
     -webkit-box-shadow: 0px 1px 2px 1px #ccc;
 }
 
-#lci_chat_load {
-    width:195px !important;
-}
-
-.lci_h3 {
-    background-image: none;
-}
+#lci_chat_load {width:195px !important;}
+.lci_h3 {background-image: none;}
 
 .gradientblock {
     margin-left: 25px;
@@ -206,7 +164,7 @@ hr.style-two {
     margin-bottom: 10px;
     border-color: lightgrey !important;
     border-radius: 4px;
-    moz-border-radius: 4px;
+    -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     box-shadow: 0px 1px 2px 1px #ccc;
     -moz-box-shadow: 0px 1px 2px 1px #ccc;
@@ -220,13 +178,8 @@ hr.style-two {
     background: -webkit-gradient(linear, left bottom, left top, color-stop(0.19, rgb(234,234,234)), color-stop(0.6, rgb(244,244,244)), color-stop(0.8, rgb(249,249,249)));
 }
 
-.gradientblock h2 span {
-    background-color: #F9F9F9;
-}
-
-#galleria {
-    margin-bottom: 2em;
-}
+.gradientblock h2 span {background-color: #F9F9F9;}
+#galleria {margin-bottom: 2em;}
 
 .linkhover a:hover {
     background-color: #990000 !important;
@@ -250,23 +203,16 @@ hr.style-two {
     padding: 10px 10px !important;
 }
 
-.ul1 li a {
-    border-bottom: 0px !important;
-}
+.ul1 li a, .ul2 li a {border-bottom: 0px !important;}
 
-.ul1 A:link {
-    text-decoration: none
-}
-
-.ul1 A:visited {
-    text-decoration: none
-}
-
-.ul1 A:active {
-    text-decoration: none
-}
-
-.ul1 A:hover {
+.ul1 A:link,
+.ul1 A:visited,
+.ul1 A:active,
+.ul1 A:hover,
+.ul2 A:link,
+.ul2 A:visited,
+.ul2 A:active,
+.ul2 A:hover {
     text-decoration: none;
 }
 
@@ -282,46 +228,38 @@ hr.style-two {
     font-size: 1.2em !important;
 }
 
-.ul2 li a {
-    border-bottom: 0px !important;
-}
-
-.ul2 A:link {
-    text-decoration: none
-}
-
-.ul2 A:visited {
-    text-decoration: none
-}
-
-.ul2 A:active {
-    text-decoration: none
-}
-
-.ul2 A:hover {
-    text-decoration: none;
-}
 /*END Library Globals****************************************************************************************************************/
 
 /*FOR FACULTY AND STAFF PAGE*****************************************************************************************************************/
-liaisonsbox_moreinfo {text-align: center; font-size: 1.25em; font-weight: bold; }
-#liaisonswrapper {text-align:center;}
 
-#liaisonswrapper ul li {list-style:none;line-height:2em;font-size:1.2em;}
+#liaisonsbox_moreinfo {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+}
 
-.liaisonslogo {background-color: #0A4366;
-box-shadow: 4px 5px 5px #948282;
-color: #FFFFFF;
-letter-spacing: 2px;
-padding: 5px 10px;
-text-align: center;
-border-radius:5px;
-width:75%;
-display:block;
-margin:0 auto;
-font-weight:bold;
-font-size:1.35em;}
+#liaisonswrapper, #liaisonsforyoucontent, #liaisonsforyourstudentscontent {text-align:center;}
 
+#liaisonswrapper ul li {
+    list-style:none;
+    line-height:2em;
+    font-size:1.2em;
+}
+
+.liaisonslogo {
+    background-color: #0A4366;
+    box-shadow: 4px 5px 5px #948282;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius:5px;
+    width:75%;
+    display:block;
+    margin:0 auto;
+    font-weight:bold;
+    font-size:1.35em;
+}
 
 #liaisonswrapper1 {
     display: block;
@@ -348,10 +286,6 @@ font-size:1.35em;}
     box-shadow: 4px 5px 11px #948282;
 }
 
-#liaisonsforyoucontent {
-    text-align: center;
-}
-
 #liaisonsforstudentstitle {
     background-color: #0A4366;
     color: white;
@@ -364,7 +298,6 @@ font-size:1.35em;}
 }
 
 #liaisonsforyourstudentscontent {
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -378,9 +311,7 @@ font-size:1.35em;}
 
 
 /*ABOUT US PAGE**************************************************************************************************************************************************************************************/
-.aboutusblock p {
-    font-size: 14px !important;
-}
+.aboutusblock p {font-size: 14px !important;}
 
 .aboutusblock {
     margin-left: 25px;
@@ -402,18 +333,9 @@ font-size:1.35em;}
     -webkit-box-shadow: 0px 1px 2px 1px #ccc;
 }
 
-.aboutusblock h2 span {
-    background-color: #F9F9F9;
-}
-
-.aboutuscolumn ul {
-    margin-top: 15px;
-}
-
-.aboutuscolumn ul li {
-    font-size: 14px;
-}
-
+.aboutusblock h2 span {background-color: #F9F9F9;}
+.aboutuscolumn ul {margin-top: 15px;}
+.aboutuscolumn ul li {font-size: 14px;}
 
 /*END ABOUT US PAGE***********************************************************************************************************************/
 
@@ -423,6 +345,7 @@ font-size:1.35em;}
     text-align: center;
     padding-bottom: 15px;
 }
+
 .outlineblock {
     margin-left: 25px;
     padding: 10px;
@@ -430,7 +353,7 @@ font-size:1.35em;}
     border: solid 2px;
     border-color: lightgrey !important;
     border-radius: 4px;
-    moz-border-radius: 4px;
+    -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     /*box-shadow: 0px 1px 2px 1px #ccc;
      -moz-box-shadow: 0px 1px 2px 1px #ccc;
@@ -450,16 +373,13 @@ font-size:1.35em;}
     font-family: Arial, sans-serif;
 }
 
-#feedbackbox p {
-    padding: 2px 0;
-}
+#feedbackbox p {padding: 2px 0;}
 
 #feedbackbox p:last-child {
     text-shadow: 1px 1px 2px lightgray;
     background: lightgray;
     border-radius: 3px;
 }
-
 
 #navhours {
     background-color: #fff;
@@ -469,6 +389,7 @@ font-size:1.35em;}
     margin: 0 auto;
     width: 70%;
 }
+
 #referencehours table, #referencehours th, #referencehours td {
     border: 1px solid black;
     text-align: center;
@@ -479,11 +400,11 @@ font-size:1.35em;}
     margin: 15px auto;
     width: 600px;
 }
+
 #quicksearch {
     float: left;
     margin-left: 20px;
 }
-
 
 /*-start custom search boxes-- */
 #box1 {
@@ -570,21 +491,14 @@ font-size:1.35em;}
     text-decoration: none;
 }
 
-
-
-#Credowrapper {
-
-    margin: 10px 0 0 100px;
-}
+#Credowrapper {margin: 10px 0 0 100px;}
 
 #credoimg {
     margin: 0 auto;
     width: 45%;
 }
 
-#proquest form {
-    clear: both;
-}
+#proquest form {clear: both;}
 
 /*--end custom search boxes--*/
 
@@ -599,6 +513,4 @@ font-size:1.35em;}
     box-shadow: 2px 2px #cccccc;
 }
 
-#advanced-search {
-    display: block;
-}
+#advanced-search {display: block;}

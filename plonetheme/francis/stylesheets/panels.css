@@ -2,8 +2,7 @@
 list-style-type:none !important;}
 .panelcollapsed table {width:100%;}
 .panelcollapsed table img { border: 0px none; }
-#panelsleft {display:inline-block; float:none; vertical-align:top;width: 350px;}
-#panelsright {display:inline-block; float:none; vertical-align:top;width: 350px;  }
+#panelsleft, #panelsright {display:inline-block; float:none; vertical-align:top; width: 350px !important;}
 
 /*Panel 1- Books and More*/
 
@@ -186,6 +185,7 @@ list-style-type:none !important;}
     /*border: 0px solid #999;*/
     border-radius: 3px 3px 3px 3px;
 }
+.panelcollapsed {width:auto !important;}
 
 /* panel heading */
 .panel h2, .panelcollapsed h2 {
@@ -226,6 +226,7 @@ list-style-type:none !important;}
 .panelcontent {
     background: #F5F5F5;
     overflow: hidden;
+    padding: 10px 0;
 }
 
 /* collapsed panel content */
