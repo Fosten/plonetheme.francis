@@ -45,14 +45,6 @@
                 </span>
             </p>
 
-            <p class="tileFooter">
-                <a href=""
-                   tal:attributes="href python:item_type in use_view_action and item_url+'/view' or item_url;"
-                   i18n:translate="read_more">
-                Read More&hellip;
-                </a>
-            </p>
-
             <div class="visualClear"><!-- --></div>
         </div>
 
