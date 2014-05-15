@@ -103,6 +103,7 @@ caption {display:none;}
 
 #portal-globalnav li a {
     background: transparent;
+    border-top:0;
     border-right: none;
     color: white;
     padding:0.5em 1.1em;
