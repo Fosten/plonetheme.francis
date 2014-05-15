@@ -34,12 +34,12 @@
     width: 202px;
     font-size: 12px;
     border: 1px solid gray;
-    border-radius:5px;
-    text-align:center;
+    border-radius: 5px;
+    text-align: center;
 }
 
 #websitefeedbackleftcolumn, #websitefeedbackleftcolumn p {font-size: 12px;}
-#websitefeedbackleftcolumn h3, #contactusaside h3 {border-bottom:1px solid gray;}
+#websitefeedbackleftcolumn h3, #contactusaside h3 {border-bottom: 1px solid gray;}
 
 div.level h1.main-title, div.level h2.main-title {
     margin-left: 0;
@@ -155,12 +155,12 @@ hr.style-two {
     -webkit-box-shadow: 0px 1px 2px 1px #ccc;
 }
 
-#lci_chat_load {width:195px !important;}
+#lci_chat_load {width: 195px !important;}
 .lci_h3 {background-image: none;}
 
 .gradientblock {
-    margin-left: 25px;
     padding: 10px;
+    margin-left: 25px;
     margin-bottom: 10px;
     border-color: lightgrey !important;
     border-radius: 4px;
@@ -191,16 +191,16 @@ hr.style-two {
 
 .ul1 {
     text-align: center !important;
-    padding: 10px !important;
     list-style-type: none !important;
     font-size: 1.35em !important;
     display: inline !important;
+    padding: 10px !important;
     margin-left: 0em !important;
 }
 
 .ul1 li {
     display: inline !important;
-    padding: 10px 10px !important;
+    padding: 10px !important;
 }
 
 .ul1 li a, .ul2 li a {border-bottom: 0px !important;}
@@ -238,12 +238,12 @@ hr.style-two {
     font-weight: bold;
 }
 
-#liaisonswrapper, #liaisonsforyoucontent, #liaisonsforyourstudentscontent {text-align:center;}
+#liaisonswrapper, #liaisonsforyoucontent, #liaisonsforyourstudentscontent {text-align: center;}
 
 #liaisonswrapper ul li {
-    list-style:none;
-    line-height:2em;
-    font-size:1.2em;
+    list-style: none;
+    line-height: 2em;
+    font-size: 1.2em;
 }
 
 .liaisonslogo {
@@ -253,12 +253,12 @@ hr.style-two {
     letter-spacing: 2px;
     padding: 5px 10px;
     text-align: center;
-    border-radius:5px;
-    width:75%;
-    display:block;
-    margin:0 auto;
-    font-weight:bold;
-    font-size:1.35em;
+    border-radius: 5px;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.35em;
 }
 
 #liaisonswrapper1 {
@@ -281,9 +281,9 @@ hr.style-two {
     padding: 5px 10px;
     text-align: center;
     letter-spacing: 2px;
+    box-shadow: 4px 5px 11px #948282;
     -moz-box-shadow: 4px 5px 11px #948282;
     -webkit-box-shadow: 4px 5px 11px #948282;
-    box-shadow: 4px 5px 11px #948282;
 }
 
 #liaisonsforstudentstitle {
@@ -292,9 +292,9 @@ hr.style-two {
     padding: 5px 10px;
     text-align: center;
     letter-spacing: 2px;
+    box-shadow: 4px 5px 11px #948282;
     -moz-box-shadow: 4px 5px 11px #948282;
     -webkit-box-shadow: 4px 5px 11px #948282;
-    box-shadow: 4px 5px 11px #948282;
 }
 
 #liaisonsforyourstudentscontent {
@@ -313,14 +313,17 @@ hr.style-two {
 /*ABOUT US PAGE**************************************************************************************************************************************************************************************/
 .aboutusblock p {font-size: 14px !important;}
 
-.aboutusblock {
-    margin-left: 25px;
+.aboutusblock, .outlineblock {
     padding: 10px;
+    margin-left: 25px;
     margin-bottom: 10px;
-    border-color: lightgrey !important;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
+    border-color: lightgrey !important;
+}
+
+.aboutusblock {
     background: rgb(234,234,234);
     background: linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
     background: -o-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
@@ -347,14 +350,7 @@ hr.style-two {
 }
 
 .outlineblock {
-    margin-left: 25px;
-    padding: 10px;
-    margin-bottom: 10px;
     border: solid 2px;
-    border-color: lightgrey !important;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
     /*box-shadow: 0px 1px 2px 1px #ccc;
      -moz-box-shadow: 0px 1px 2px 1px #ccc;
      -webkit-box-shadow: 0px 1px 2px 1px #ccc;*/
@@ -407,18 +403,22 @@ hr.style-two {
 }
 
 /*-start custom search boxes-- */
+
+#box1, #box2, #credobox, #journalfinderbox {
+    height: 20px;
+    outline: medium none;
+    padding: 4px;
+}
+
 #box1 {
     border: 1px solid #C4C4C4;
     border-radius: 4px 4px 4px 4px;
     box-shadow: 0 0 6px #003F7F;
     color: #054B8C;
     font-size: 16px;
-    height: 20px;
-    margin-left: 5px;
-    margin-right: 6px;
     margin-top: 30px;
-    outline: medium none;
-    padding: 4px;
+    margin-right: 6px;
+    margin-left: 5px;
     width: 300px;
 }
 
@@ -427,11 +427,8 @@ hr.style-two {
     border-radius: 1px 1px 1px 1px;
     box-shadow: 0 0 7px #505C7C;
     font-size: 14px;
-    height: 20px;
-    margin-left: 125px;
     margin-top: 10px;
-    outline: medium none;
-    padding: 4px;
+    margin-left: 125px;
     width: 396px;
 }
 
@@ -441,9 +438,6 @@ hr.style-two {
     box-shadow: 0 0 7px #505C7C;
     color: #054B8C;
     font-size: 16px;
-    height: 20px;
-    outline: medium none;
-    padding: 4px;
     width: 400px;
 }
 
@@ -453,11 +447,8 @@ hr.style-two {
     box-shadow: 0 0 6px #505C7C;
     color: #054B8C;
     font-size: 14px;
-    height: 20px;
     margin-left: 45px;
     margin-top: 15px;
-    outline: medium none;
-    padding: 4px;
     width: 175px;
 }
 
