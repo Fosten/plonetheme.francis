@@ -18,6 +18,8 @@
 
 #hourswrap2 {
     border-radius: 115px;
+    -moz-border-radius: 115px;
+    -webkit-border-radius: 115px;
     display: inline-block;
     font-family: Arial,sans-serif;
     font-size: 1em;
@@ -35,6 +37,8 @@
     font-size: 12px;
     border: 1px solid gray;
     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     text-align: center;
 }
 
@@ -115,7 +119,9 @@ div#column-right .content-item-item p {
 }
 
 #hourswrap1, #hourswrap2, #hours {
-    border-radius: 115px 115px 115px 115px;
+    border-radius: 115px;
+    -moz-border-radius: 115px;
+    -webkit-border-radius: 115px;
     font-family: Arial, sans-serif;
     font-size: 1em;
     height: 2em;
@@ -184,6 +190,8 @@ hr.style-two {
 .linkhover a:hover {
     background-color: #990000 !important;
     border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
     color: #fff !important;
     padding: 2px !important;
     text-decoration: none !important;
@@ -249,11 +257,15 @@ hr.style-two {
 .liaisonslogo {
     background-color: #0A4366;
     box-shadow: 4px 5px 5px #948282;
+    -moz-box-shadow: 4px 5px 5px #948282;
+    -webkit-box-shadow: 4px 5px 5px #948282;
     color: #FFFFFF;
     letter-spacing: 2px;
     padding: 5px 10px;
     text-align: center;
     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     width: 75%;
     display: block;
     margin: 0 auto;
@@ -361,7 +373,11 @@ hr.style-two {
     font-size: 1.5em;
     padding: 1em;
     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     box-shadow: 0 0 15px #404A64;
+    -moz-box-shadow: 0 0 15px #404A64;    
+    -webkit-box-shadow: 0 0 15px #404A64;
     text-align: center;
     width: 70%;
     display: block;
@@ -375,12 +391,16 @@ hr.style-two {
     text-shadow: 1px 1px 2px lightgray;
     background: lightgray;
     border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
 }
 
 #navhours {
     background-color: #fff;
     text-align: center;
     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     display: block;
     margin: 0 auto;
     width: 70%;
@@ -412,8 +432,12 @@ hr.style-two {
 
 #box1 {
     border: 1px solid #C4C4C4;
-    border-radius: 4px 4px 4px 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
     box-shadow: 0 0 6px #003F7F;
+    -moz-box-shadow: 0 0 6px #003F7F;    
+    -webkit-box-shadow: 0 0 6px #003F7F;
     color: #054B8C;
     font-size: 16px;
     margin-top: 30px;
@@ -424,8 +448,12 @@ hr.style-two {
 
 #box2 {
     border: 0px solid #C4C4C4;
-    border-radius: 1px 1px 1px 1px;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
     box-shadow: 0 0 7px #505C7C;
+    -moz-box-shadow: 0 0 7px #505C7C;
+    -webkit-box-shadow: 0 0 7px #505C7C;
     font-size: 14px;
     margin-top: 10px;
     margin-left: 125px;
@@ -435,7 +463,11 @@ hr.style-two {
 #credobox {
     border: 0px solid #C4C4C4;
     border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
     box-shadow: 0 0 7px #505C7C;
+    -moz-box-shadow: 0 0 7px #505C7C;
+    -webkit-box-shadow: 0 0 7px #505C7C;
     color: #054B8C;
     font-size: 16px;
     width: 400px;
@@ -443,8 +475,12 @@ hr.style-two {
 
 #journalfinderbox {
     border: 0 solid #C4C4C4;
-    border-radius: 1px 1px 1px 1px;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
     box-shadow: 0 0 6px #505C7C;
+    -moz-box-shadow: 0 0 6px #505C7C;
+    -webkit-box-shadow: 0 0 6px #505C7C;
     color: #054B8C;
     font-size: 14px;
     margin-left: 45px;
@@ -462,8 +498,12 @@ hr.style-two {
 #submit-button {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px none #054B8C;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
     box-shadow: 0 0 4px #505C7C;
+    -moz-box-shadow: 0 0 4px #505C7C;
+    -webkit-box-shadow: 0 0 4px #505C7C;
     color: #404A64;
     cursor: pointer;
     float: none;
@@ -500,8 +540,12 @@ hr.style-two {
     font-size: 1.1em;
     background-color: #990000;
     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     padding: 4px;
     box-shadow: 2px 2px #cccccc;
+    -moz-box-shadow: 2px 2px #cccccc;
+    -webkit-box-shadow: 2px 2px #cccccc;
 }
 
 #advanced-search {display: block;}
