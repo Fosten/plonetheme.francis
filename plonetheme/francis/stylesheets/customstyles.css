@@ -1,0 +1,52 @@
+#wrapper-wrapper {
+    background:url('++resource++plonetheme.francis.images/gradient.png') !important;
+    background-repeat:repeat-x !important;
+    display:inline-block;
+    width:100%;
+}
+
+.social {text-align:right;}
+
+.social img {
+    height:20px;
+    padding:5px 2px 2px;
+}
+
+.social a {
+    font-size:80%;
+    font-weight:bold;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.498);
+    padding-top:10px;
+    color: white !important;
+}
+
+
+#viewlet-social-like {margin-bottom:5px;}
+#plusonebt {width:70px !important;}
+#viewlet-social-like iframe {width:92px !important;}
+ul.slideshow {min-height:250px !important;}
+
+#slogan {
+    text-align:center;
+    font-size:48px;
+    color:white;
+    font-family: 'Georgia, Times, serif'; 
+    margin-bottom:.2em;
+}
+
+ul.subdomains {display:inline-block;}
+
+ul.subdomains a {
+    padding: 0 1em !important;
+    border-bottom:0 !important;
+}
+    
+.mini-wrapper {
+    width:980px;
+    margin:2em auto 0;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.498);
+}
+
+.footer-addy {margin:1em 0 .8em;}
+.phone-icon {margin-left:.5em;}
+.accessibility-statement {margin:1em 0;}
