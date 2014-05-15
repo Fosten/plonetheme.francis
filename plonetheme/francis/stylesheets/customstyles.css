@@ -5,6 +5,7 @@
     width:100%;
 }
 
+/*Header*/
 .social {text-align:right;}
 
 .social img {
@@ -20,12 +21,21 @@
     color: white !important;
 }
 
+/*Content*/
+.biggerfont {font-size:150%;}
+ul.nobullets {list-style-type:none !important;}
+.uniformimages img {width:150px;}
+.halfwidth {float:left; width:49%; padding:0.4%;}
+.fullwidth {display:inline-block; width:100%;}
+.multiaside {width:200px; float:right;}
 
-#viewlet-social-like {margin-bottom:5px;}
-#plusonebt {width:70px !important;}
-#viewlet-social-like iframe {width:92px !important;}
-ul.slideshow {min-height:250px !important;}
+.half {
+    float:right;
+    width:49%;
+    padding-left:1%;
+}
 
+/*Footer*/
 #slogan {
     text-align:center;
     font-size:48px;
@@ -50,3 +60,156 @@ ul.subdomains a {
 .footer-addy {margin:1em 0 .8em;}
 .phone-icon {margin-left:.5em;}
 .accessibility-statement {margin:1em 0;}
+
+/*Asides*/
+div.aside 
+{
+    float: right;
+    margin-left:10px;
+    margin-bottom:10px;
+    width: 200px;
+    
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 6px 1px #ccc;
+    -moz-box-shadow: 0px 1px 6px 1px #ccc;
+    -webkit-box-shadow: 0px 1px 6px 1px #ccc;
+}
+
+div.aside h3
+{
+    background-position: top left;
+    background-image: none;
+    border: 1px solid #9d9d9d;
+    color:#444444;
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    margin:0;
+    padding:0;
+    padding: 5px;
+    text-align:center;
+    text-shadow:1px 1px 0px #FFFFFF;
+    
+    -moz-border-top-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background-image: linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background-image: -o-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background-image: -moz-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background-image: -webkit-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+    background-image: -ms-linear-gradient(bottom, rgb(234,234,234) 19%, rgb(244,244,244) 60%, rgb(249,249,249) 80%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.19, rgb(234,234,234)),
+        color-stop(0.6, rgb(244,244,244)),
+        color-stop(0.8, rgb(249,249,249))
+    );
+}
+
+div.aside h3 span
+{
+    background:none;
+}
+
+div.aside div.aside-content 
+{
+    background-color:#fcfcfc;
+    border-left: 1px solid #9d9d9d;
+    border-right: 1px solid #9d9d9d;
+    border-bottom: 1px solid #515151;
+    color:#3b3b3b;
+    font-size: 11px;
+    padding: 5px;
+    text-align:center;
+    
+    -moz-box-shadow: 0 1px 0px #a1a1a1;
+    -webkit-box-shadow: 0 1px 0px #a1a1a1;
+    box-shadow: 0 1px 0px #a1a1a1;
+    
+    -moz-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+div.aside div.aside-content div.aside-footer
+{
+    border-top: 1px dotted #c4c4c4;
+    margin-top:8px;
+    padding: 6px 6px 0 6px;
+}
+
+div.aside div.aside-content a.aside-link 
+{
+    background-color:#9b0226;
+    border: 1px solid #a30027;
+    color:#fff;
+    display: inline-block;
+    font-weight: bold;
+    line-height:18px;
+    padding: 4px 20px 4px 4px;
+    text-align: left;
+    text-decoration:none;
+    text-shadow:0 1px 1px #71031b;
+    vertical-align:middle;
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    -moz-box-shadow:inset 0px 1px 0px #d68196;
+    -webkit-box-shadow:inset 0px 1px 0px #d68196;
+    box-shadow:inset 0px 1px 0px #d68196;
+    
+    background-image: linear-gradient(bottom, rgb(112,1,25) 19%, rgb(147,2,36) 60%, rgb(172,3,42) 80%);
+    background-image: -o-linear-gradient(bottom, rgb(112,1,25) 19%, rgb(147,2,36) 60%, rgb(172,3,42) 80%);
+    background-image: -moz-linear-gradient(bottom, rgb(112,1,25) 19%, rgb(147,2,36) 60%, rgb(172,3,42) 80%);
+    background-image: -webkit-linear-gradient(bottom, rgb(112,1,25) 19%, rgb(147,2,36) 60%, rgb(172,3,42) 80%);
+    background-image: -ms-linear-gradient(bottom, rgb(112,1,25) 19%, rgb(147,2,36) 60%, rgb(172,3,42) 80%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.19, rgb(112,1,25)),
+        color-stop(0.6, rgb(147,2,36)),
+        color-stop(0.8, rgb(172,3,42))
+    );
+}
+
+/*Image Buttons */
+.ribbon {border-top-left-radius: 15px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 15px; 
+    border-bottom-left-radius: 0px;
+    background-image: url(http://francis.edu/uploadedImages/Content/Home/In_The_Spotlight_Bottom/blank.jpg);
+    display: block; 
+    width: 165px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 32px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    font-family: Georgia, Times, serif;
+    text-shadow: rgb(105, 105, 105) 2px 2px;
+    text-decoration: none;
+}
+
+.ribbon a.whitefont, .ribbon a.whitefont:visited {color: white !important;}
+
+/*Addon Products */
+#viewlet-social-like {margin-bottom:5px;}
+#plusonebt {width:70px !important;}
+#viewlet-social-like iframe {width:92px !important;}
+ul.slideshow {min-height:250px !important;}
