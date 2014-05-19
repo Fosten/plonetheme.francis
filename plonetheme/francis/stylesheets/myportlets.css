@@ -1,44 +1,43 @@
-#portal-column-one dt.portletHeader, #portal-column-two dt.portletHeader {display:none;}
-
-dl.portletNavigationTree dd.portletItem ul li ul {
-    background:white;
-    border-radius:4px;
-    -moz-border-radius:4px;
-    -webkit-border-radius:4px;
+#portal-column-one dt.portletHeader, 
+#portal-column-two dt.portletHeader {
+    display: none;
 }
 
-dl.portlet a {padding:2px;}
+dl.portletNavigationTree dd.portletItem ul li ul {
+    background: white;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+dl.portlet a {padding: 2px;}
 
 #portlets-footer h2 {
     background-image: none;
-    color:white;
-    text-align:center;
-    font-size:48px;
-    line-height:1.5em;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.5em;
 }
 
 #portlets-footer a,
 #portlets-footer a:link {
-    color:white;
+    color: white;
     text-decoration: none;
-    padding:2px;
+    padding: 2px;
 }
 
-#portlets-footer dt.portletHeader {
-    background:transparent;
-}
+#portlets-footer dt.portletHeader {background: transparent;}
  
 #portlets-footer dt.portletHeader a {
-    text-align:center;
-    color:white;
-    font-size:24px;
-    font-style:normal;
-    line-height:1.5em;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 1.5em;
 }
  
-#portlets-footer .navTreeItem {
-    border-bottom:none;
-}
+#portlets-footer .navTreeItem {border-bottom: none;}
 
 #portal-column-one dl.portlet,
 #portal-column-two dl.portlet {
@@ -74,17 +73,22 @@ dd.portletFooter a:visited {
 }
 
 #portlets-footer dl.portlet dd.portletItem {
-    font-size:12px;
-    padding:0;
+    font-size: 12px;
+    padding: 0;
 }
 
 #portlets-footer dt.portletHeader {
-    font-style:italic;
-    font-family:'Georgia, Times, serif';
-    font-size:1.1em;
-    padding:0.42em 0;
+    font-style: italic;
+    font-family: 'Georgia, Times, serif';
+    font-size: 1.1em;
+    padding: 0.42em 0;
 }
 
 #content dl.portlet {
-    font-size:12px;
+    font-size: 12px;
+}
+
+.titleless {
+    background: none !important;
+    padding: 0 !important;
 }
