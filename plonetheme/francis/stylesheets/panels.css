@@ -1,14 +1,22 @@
-.ul1 {font-size: 1.25em !important;
-list-style-type:none !important;}
-.panelcollapsed table {width:100%;}
-.panelcollapsed table img { border: 0px none; }
-#panelsleft, #panelsright {display:inline-block; float:none; vertical-align:top; width: 350px !important;}
+.ul1 {
+    font-size: 1.25em !important;
+    list-style-type: none !important;
+}
+
+.panelcollapsed table {width: 100%;}
+.panelcollapsed table img {border: 0px none; }
+
+#panelsleft,
+#panelsright {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    width: 350px !important;
+}
 
 /*Panel 1- Books and More*/
 
-#ebooks1 {
-    font-size: 1.4em !important;
-}
+#ebooks1 {font-size: 1.4em !important;}
 
 #newcredolinkarea a:hover {
     color: white;
@@ -17,14 +25,28 @@ list-style-type:none !important;}
     border-radius: 5px;
     padding: 2px;
 }
-#WCLwrapper {
-    margin-top: 5px;
-}
+#WCLwrapper {margin-top: 5px;}
+
 /*stripped from inline*/
-#wcl_seasrchbox {display:none;}
-#newcredodiv {width: 47%; display: block; margin: 25px auto;}
-#newcredodiv p {text-align:center !important;}
-#newcredolinkarea { text-align: center; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; margin: 0px auto; width: 91%; font-weight: bold;} 
+#wcl_seasrchbox {display: none;}
+#newcredodiv p {text-align: center !important;}
+
+#newcredodiv {
+    width: 47%;
+    display: block;
+    margin: 25px auto;
+}
+
+#newcredolinkarea {
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 0px auto;
+    width: 91%;
+    font-weight: bold;
+} 
 
 /*Panel 2 - Research Databases*/
 #proquestsearchwidget {
@@ -41,8 +63,11 @@ list-style-type:none !important;}
     font-size: 1em;
 }
 /*stripped from inline*/
-#researchguidespaneltagline {font-size: 1.25em; text-shadow: rgb(211, 211, 211) 2px 2px 1px; text-align: center;}
-
+#researchguidespaneltagline {
+    font-size: 1.25em;
+    text-shadow: rgb(211, 211, 211) 2px 2px 1px;
+    text-align: center;
+}
 
 /*Panel 4 - Get Research Help most are in the table style css*/ 
 
@@ -51,13 +76,13 @@ list-style-type:none !important;}
 #getresearchhelpheading {background-color: rgb(135, 2, 33);}
 
 /*Panel 5 - Interlibrary Loan*/
-#journalfindersearch1 {
-    margin: 15px 0;
-}
+#journalfindersearch1 {margin: 15px 0;}
+
 #journalfindersearch1 p {
     letter-spacing: 1px;
     text-align: center;
-	font-size: 15px; line-height: 20px; 
+	font-size: 15px;
+	line-height: 20px; 
 }
 
 
@@ -176,7 +201,8 @@ list-style-type:none !important;}
 
 /*General Panel Styles*/
 /* panel */
-.panel, .panelcollapsed {
+.panel,
+.panelcollapsed {
     background: #404A64;
     margin: 0 5px 15px 5px;
     padding: 0px 0px 5px;
@@ -185,10 +211,12 @@ list-style-type:none !important;}
     /*border: 0px solid #999;*/
     border-radius: 3px 3px 3px 3px;
 }
-.panelcollapsed {width:auto !important;}
+
+.panelcollapsed {width: auto !important;}
 
 /* panel heading */
-.panel h2, .panelcollapsed h2 {
+.panel h2,
+.panelcollapsed h2 {
     font-size: 24px;
     line-height: 35px;
     text-align: center;
@@ -210,7 +238,9 @@ list-style-type:none !important;}
 }
 
 /* panel heading on rollover */
-.panel h2:hover, .panelcollapsed h2:hover, .panelcollapsed:hover {
+.panel h2:hover,
+.panelcollapsed h2:hover,
+.panelcollapsed:hover {
     background-color: #505C7C;
     cursor: hand;
     cursor: pointer;
@@ -240,20 +270,21 @@ list-style-type:none !important;}
     float: left;
 }
 
-#panelsleft, #panelsright, #panelwide {
+#panelsleft,
+#panelsright,
+#panelwide {
     float: left;
 }
 
-#panels h2 span, #panels h3 span {
+#panels h2 span,
+#panels h3 span {
     background-color: transparent;
     padding-right: 8px;
     font-family: 'Volkhov', serif;
     font-style: normal;
 }
 
-#panelcoursereserves {
-    margin: 25px 50px 10px 50px;
-}
+#panelcoursereserves {margin: 25px 50px 10px 50px;}
 
 #panelsbuttons a {
     padding: 5px 10px;

@@ -7,27 +7,26 @@
 }
 
 #portal-globalnav ul.submenu li {
-    width:99%;
+    width: 99%;
     border-top: 0;
     border-right: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
     border-left: 1px solid #e5e5e5;
 }
 
-ul.submenu, ul.submenu ul {
-    border-radius:2px;
-    -moz-border-radius:2px;
-    -webkit-border-radius:2px;
+ul.submenu,
+ul.submenu ul {
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
 }
 
 ul.submenu {background: white;}
-ul.submenu ul {left:13%;}
+ul.submenu ul {left: 13%;}
 
-a.hasDropDown {
-    background-position:140px 15% !important;
-}
+a.hasDropDown {background-position: 140px 15% !important;}
 
 #portal-globalnav li ul ul {
     margin: 0 0 0 140px !important;
-    background-color:#ccc;
+    background-color: #ccc;
 }

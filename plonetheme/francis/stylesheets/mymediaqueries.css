@@ -1,38 +1,54 @@
 @media only screen and (max-width:640px) {
-    #visual-portal-wrapper{width:100% !important;}
+    #visual-portal-wrapper {width: 100% !important;}
 /* Header */
-    .social {margin-top:112px; text-align:center;}
-    div#logo {text-align:center; margin-top:-8px;}
-    #portal-searchbox {text-align:center; width:100%; margin:20px 0 0 !important;}
-    .LSBox #searchGadget {height:35px; width:79%;}
-    .LSBox .searchButton {height:38px; width:41px;}
+    .social {margin-top: 112px; text-align: center;}
+    div#logo {text-align: center; margin-top: -8px;}
+    #portal-searchbox {text-align: center; width: 100%; margin: 20px 0 0 !important;}
+    .LSBox #searchGadget {height: 35px; width: 79%;}
+    .LSBox .searchButton {height: 38px; width: 41px;}
 /* Nav */
-    .nav-primary {width:100%; margin:0px 0px 5px !important;}
-    #portal-globalnav {margin-bottom:0;}
-    #portal-globalnav a:hover {background-color:white !important;}
-    ul#portal-globalnav {background:transparent !important;}
-    #portal-globalnav li a, .navigation-button {background:#930324 !important;}
-    button.navigation-button {margin: 0 1%; border:1px solid black;}
+    .nav-primary {width: 100%; margin: 0px 0px 5px !important;}
+    #portal-globalnav {margin-bottom: 0;}
+    #portal-globalnav a:hover {background-color: white !important;}
+    ul#portal-globalnav {background: transparent !important;}
+    button.navigation-button {margin: 0 1%; border: 1px solid black;}
+    
+    #portal-globalnav li a,
+    .navigation-button {
+        background: #930324 !important;
+    }
+    
 /* Content */
-    div#portal-columns {border:0;width:100%;padding-top:0;}
-    div#portal-column-content {width:99% !important;}
-    #content{margin:0;}
-    #slider-container {display:none;}
+    div#portal-columns {border: 0; width: 100%; padding-top: 0;}
+    div#portal-column-content {width: 99% !important;}
+    #content{margin: 0;}
+    #slider-container {display: none;}
 /* Footer */
-    #slogan {font-size:2em;}
-    .mini-wrapper {width:100%;}
-    #footer-logo {width:100%; text-align:center; margin:0;}
-    #portlets-footer {width:100%;}
+    #slogan {font-size: 2em;}
+    .mini-wrapper {width: 100%;}
+    #footer-logo {width: 100%; text-align: center; margin: 0;}
+    #portlets-footer {width: 100%;}
 /* CWP */
     .BelowPortletManager1,
-    .BelowPortletManager2 {width:100% !important; float:none !important; margin-left:-100% !important;}
+    .BelowPortletManager2 {
+        width: 100% !important;
+        float: none !important;
+        margin-left: -100% !important;
+    }
+    
     .FooterPortletManager1,
     .FooterPortletManager2,
     .FooterPortletManager3,
     .FooterPortletManager4,
     .FooterPortletManager5,
-    .FooterPortletManager6 {width:100% !important; float:none !important; margin-left:-100% !important; text-align:center;}
+    .FooterPortletManager6 {
+        width: 100% !important;
+        float: none !important;
+        margin-left: -100% !important;
+        text-align:center;
+    }
+    
 /* Homepage */
-    .section-homepage #portal-columns {width:100%;}
-    .section-homepage #content {display:none;}
+    .section-homepage #portal-columns {width: 100%;}
+    .section-homepage #content {display: none;}
 }

@@ -1,15 +1,18 @@
 /* Portlets */
-.managePortletsBelowTitleLink a {font-size:100% !important;}
+.managePortletsBelowTitleLink a {font-size: 100% !important;}
 
 .manageFooterPortletsLink {
     background: transparent !important;
-    text-shadow:none;
+    text-shadow: none;
 }
 
-.managePortletsAboveLink, .managePortletsBelowLink, .manageFooterPortletsLink {margin:0;}
+.managePortletsAboveLink,
+.managePortletsBelowLink,
+.manageFooterPortletsLink {
+    margin: 0;
+}
 
-.managePortletsAboveLink {padding-top:0.5em;}
-
+.managePortletsAboveLink {padding-top: 0.5em;}
 .managePortletsLink a {color: #444;}
 
 div.managePortletsLink,
@@ -22,7 +25,7 @@ a.managePortletsFallback {
     background: -o-linear-gradient(top, #ffffff 0%,#d8dadb 100%); /* Opera11.10+ */
     background: -ms-linear-gradient(top, #ffffff 0%,#d8dadb 100%); /* IE10+ */
     background: linear-gradient(top, #ffffff 0%,#d8dadb 100%); /* W3C */  
-    border:0.1em solid #444444;
+    border: 0.1em solid #444444;
     color: #444444 !important;  
     text-align: center;
     padding: 0.25em 0.5em;
@@ -34,7 +37,7 @@ a.managePortletsFallback {
 }
 
 a.managePortletsFallback {
-    display:inline-block; /* in order for our vertical margins to work on inline element */
+    display: inline-block; /* in order for our vertical margins to work on inline element */
 }
 
 #content a.managePortletsFallback {
@@ -62,16 +65,16 @@ a.managePortletsFallback {
 
 .kssattr-serveraction-foldercontents_update_table a,
 .kssattr-serveraction-foldercontents_update_table a:link {
-    color:#990000 !important;
+    color: #990000 !important;
 }
 
 .context, .button-field {
-    color:#444;
-    padding:2px;
-    border:0.1em solid #444;
-    border-radius:.5em;
-    -webkit-border-radius:.5em;
-    -moz-border-radius:.5em;
+    color: #444;
+    padding: 2px;
+    border: 0.1em solid #444;
+    border-radius: .5em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
     background: #ffffff; /* Old browsers */
     background: -moz-linear-gradient(top, #ffffff 0%, #d8dadb 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d8dadb)); /* Chrome,Safari4+ */
@@ -82,9 +85,7 @@ a.managePortletsFallback {
 }
 
 /* Hovers */
-div.managePortletsLink:hover a {
-    color: white;
-}
+div.managePortletsLink:hover a {color: white;}
 
 div.managePortletsLink:hover,
 a.managePortletsFallback:hover,
@@ -92,13 +93,13 @@ a.managePortletsLink:hover,
 .managePortletsBelowTitleLink a:hover {
     background: #444444 !important;
     color: white !important;
-    border:1px solid white;
+    border: 1px solid white;
 }
 
 .context:hover {
     color: white;
     background: #444;
-    padding:2px;
+    padding: 2px;
 }
 
-li.formTab a span:hover {color:black;}
+li.formTab a span:hover {color: black;}
