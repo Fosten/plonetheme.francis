@@ -92,3 +92,9 @@ dd.portletFooter a:visited {
     background: none !important;
     padding: 0 !important;
 }
+
+dl.portlet ul.navTreeLevel1 .navTreeItem {padding-right: 0.5em;}
+
+dl.portlet ul.navTree .navTreeCurrentItem {border: 0; margin:0;}
+dl.portlet ul.navTree li a {padding-left:.5em;}
+dl.portlet ul.navTreeLevel0 > .navTreeItem {padding:.25em .5em;}
