@@ -102,4 +102,4 @@ a.managePortletsLink:hover,
     padding: 2px;
 }
 
-li.formTab a span:hover {color: black;}
+li.formTab a:hover {background:#990000 !important;}
