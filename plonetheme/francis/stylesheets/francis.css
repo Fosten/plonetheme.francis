@@ -212,3 +212,15 @@ caption {display: none;}
 .tileBody span {padding: 2px;}
 #content img.tileImage {float: left;}
 .leadImage {display: none;}
+
+img.tileImage {
+    border: 2px solid #fff;
+    float: left;
+    margin-right: 20px;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 15px 0 15px 0;
+    -moz-border-radius: 15px 0 15px 0;
+    -webkit-border-radius: 15px 0 15px 0;
+}
