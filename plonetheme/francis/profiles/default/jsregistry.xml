@@ -2,7 +2,7 @@
 
 <object name="portal_javascripts">
 
-    <javascript id="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
+    <javascript id="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"
         cacheable="True" compression="none" cookable="True" enabled="True"
         expression="" inline="False"/>
 
@@ -39,6 +39,14 @@
         expression="" inline="False"/>
 
     <javascript id="++resource++plonetheme.francis.javascript/panels.js"
+        cacheable="True" compression="none" cookable="True" enabled="True"
+        expression="" inline="False"/>
+
+    <javascript id="++resource++plonetheme.francis.javascript/responsiveslides.min.js"
+        cacheable="True" compression="none" cookable="True" enabled="True"
+        expression="" inline="False"/>
+
+    <javascript id="++resource++plonetheme.francis.javascript/responsiveslides.js"
         cacheable="True" compression="none" cookable="True" enabled="True"
         expression="" inline="False"/>
 
